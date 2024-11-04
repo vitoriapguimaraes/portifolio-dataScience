@@ -5,8 +5,12 @@
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 ![Tkinter](https://img.shields.io/badge/Tkinter-FF6F00?style=for-the-badge&logo=python&logoColor=white)
 
-Este repositório contém uma coleção de projetos desenvolvidos em Python, abordando análise de dados, automação e interatividade. Cada projeto visa explorar habilidades de programação e aplicar conceitos de ciência de dados, manipulação de dados e programação orientada a objetos.
+### Documentação Adicional
+Para mais informações sobre minhas qualificações e certificações, acesse os arquivos disponíveis na pasta <code>_DOCUMENTOS</code>. Nela, você encontrará: certificados relevantes, meu currículo atualizado e meu perfil no LinkedIn.
 
+<hr> 
+
+Este repositório contém uma coleção de projetos desenvolvidos em Python, abordando análise de dados, automação e interatividade. Cada projeto visa explorar habilidades de programação e aplicar conceitos de ciência de dados, manipulação de dados e programação orientada a objetos.
 
 ## Projetos
 
