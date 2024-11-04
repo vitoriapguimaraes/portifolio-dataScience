@@ -14,7 +14,7 @@ Este repositório contém uma coleção de projetos desenvolvidos em Python, abo
 [![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python/tree/main/Analise%20de%20Vendas)
 
 Análise de um banco de dados real do setor varejista para extração de insights comerciais e criação de gráficos informativos.
-- Tecnologias: Python, Pandas, Matplotlib, Jupyter Notebook
+- Tecnologias: Python, Pandas, Matplotlib
 - Funcionalidades:
     - Análise exploratória e limpeza de dados.
     - Criação de visualizações informativas para identificação de padrões e insights.
