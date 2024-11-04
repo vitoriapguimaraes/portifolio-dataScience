@@ -23,7 +23,7 @@ Este projeto analisa dados de clientes para identificar os principais motivos de
 - PyPDF2: Combinação de arquivos PDF.
 
 ## Como Executar
-1. Pré-requisitos: Instale as bibliotecas necessárias: pandas, plotly, e PyPDF2 (pip install pandas plotly PyPDF2).
+1. Pré-requisitos: Instale as bibliotecas necessárias: pandas, plotly, e PyPDF2.
 2. Execução:
    - Coloque o arquivo <code>data-bank.csv</code> no mesmo diretório do script.
    - Execute o script em Python.
