@@ -1,6 +1,5 @@
 ### Exploratory Data Analysis with Python Applied to Retail ###
 
-
 ### Análise de dados associados a perguntas de negócios ###
 ### Análise Exploratória de Dados em Linguagem Python Para a Área de Varejo ###
 

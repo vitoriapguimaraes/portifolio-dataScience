@@ -8,7 +8,7 @@ import PyPDF2
 
 # passo 1 = importar a base de dados
 
-tabela = pd.read_csv('data-bank.csv', encoding="latin1")
+tabela = pd.read_csv('Avaliação Cancelamento de Cartão/data-bank.csv', encoding="latin1")
 
 # passo 2 = visualizar e tratar essa base de dados
 
@@ -60,7 +60,7 @@ print("-"*100)
 
 data_atual = datetime.datetime.today().strftime("%Y-%m-%d_%H%M%S")
 
-caminho = (f'histogram/{data_atual}')
+caminho = (f'Avaliação Cancelamento de Cartão/HISTOGRAM/{data_atual}')
 if not os.path.exists(caminho):
     os.makedirs(caminho)
     print(f'Pasta {caminho} criada')
@@ -70,18 +70,18 @@ print("-"*100)
     
 for coluna in tabela:
     grafico = px.histogram(tabela, x=coluna, color="Categoria",color_discrete_sequence=px.colors.qualitative.D3)
-    grafico.write_image(f"HISTOGRAM/{data_atual}/{coluna}.pdf")
+    grafico.write_image(f"Avaliação Cancelamento de Cartão/HISTOGRAM/{data_atual}/{coluna}.pdf")
     # grafico.show()
 
 print(f"Histogramas geradas. Procure por eles na pasta {caminho}")
 
         # reunindo os histogramas em apenas um pdf:
         
-lista_histogramas = os.listdir(f"HISTOGRAM/{data_atual}/")
+lista_histogramas = os.listdir(f"Avaliação Cancelamento de Cartão/HISTOGRAM/{data_atual}/")
 merger = PyPDF2.PdfMerger()
 for histograma in lista_histogramas:
-    merger.append(f"HISTOGRAM/{data_atual}/{histograma}") 
-merger.write(f"HISTOGRAM/{data_atual}-Histogram.pdf")
+    merger.append(f"Avaliação Cancelamento de Cartão/HISTOGRAM/{data_atual}/{histograma}") 
+merger.write(f"Avaliação Cancelamento de Cartão/HISTOGRAM/{data_atual}-Histogram.pdf")
 
 print(f"PDF combinado criado com sucesso: {data_atual}-Histogramas.pdf")
 print("-"*100)

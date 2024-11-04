@@ -1,40 +1,49 @@
-template do jogo da forca
-
-# Jogo da Forca
-
-Este projeto é uma implementação do clássico Jogo da Forca, onde os jogadores tentam adivinhar uma palavra secreta letra por letra. Com um número limitado de tentativas, o jogador precisa adivinhar todas as letras corretamente antes que a forca seja completada.
+# Análise Exploratória de Dados com Python Aplicada ao Varejo
+Este projeto realiza uma Análise Exploratória de Dados (EDA) aplicada ao setor de varejo, utilizando Python. A análise se concentra em responder perguntas de negócios para gerar insights práticos sobre as vendas em diferentes categorias, cidades e períodos.
 
 ## Funcionalidades Gerais
+- Carregamento e pré-processamento de dados com Pandas.
+- Análise exploratória de dados para responder a perguntas estratégicas do setor de varejo.
+- Visualização de dados com gráficos diversos, incluindo gráficos de linhas, barras e pizza.
+- Exportação de gráficos gerados para um diretório específico.
 
-- Desenvolvimento de um programa interativo que permite jogar Forca no terminal.
-- Validação das entradas do usuário, garantindo que apenas caracteres válidos sejam aceitos, evitando erros e entradas inválidas.
-- Exibição das tentativas restantes, com diferentes representações visuais para cada versão.
-
-## Versões do Projeto
-
-1. Versão 1: Implementação inicial do jogo, com um contador simples de tentativas restantes exibido ao jogador.
-2. Versão 2: Expansão da primeira versão com a adição de um modelo visual da forca, que é desenhado e atualizado a cada erro, proporcionando uma experiência visual mais próxima do jogo original.
-3. Versão 3: Reescrita da segunda versão utilizando Programação Orientada a Objetos (POO), o que torna o código mais modular, organizado e fácil de manter. Nesta versão, cada parte do jogo, como o controle de tentativas e o estado da palavra, é tratada como um objeto.
+## Estrutura do Projeto
+- Carregamento e inspeção dos dados: Verificação de registros duplicados, valores ausentes e análise descritiva.
+- Perguntas de Negócio:
+  - Pergunta 1: Identificação da cidade com maior valor de vendas para produtos da categoria "Office Supplies".
+  - Pergunta 2: Total de vendas por data do pedido, exibido em gráfico de linha.
+  - Pergunta 3: Total de vendas por estado, exibido em gráfico de barras.
+  - Pergunta 4: As 10 cidades com maior valor de vendas, exibido em gráfico de barras.
+  - Pergunta 5: Segmento com maior valor de vendas, exibido em gráfico de pizza.
+  - Pergunta 6: Total de vendas por segmento e por ano.
+  - Pergunta 7: Simulação de faixas de desconto com contagem de vendas que receberiam 15% de desconto.
+  - Pergunta 8: Média de valor de vendas antes e depois do desconto de 15%.
+  - Pergunta 9: Média de vendas por segmento, por ano e por mês, exibido em gráfico de linha.
+  - Pergunta 10: Total de vendas por categoria e subcategoria (Top 12), exibido em gráfico de pizza.
 
 ## Ferramentas e Tecnologias Utilizadas
-
-- Python: Linguagem principal usada para desenvolver o jogo.
+- Python: Linguagem de programação principal.
+- Pandas: Manipulação e análise dos dados.
+- Matplotlib e Seaborn: Visualização de dados.
 - Git e GitHub: Controle de versão e hospedagem do código.
 
 ## Conhecimentos Aplicados
+- Análise Exploratória de Dados (EDA): Inspeção visual e estatística dos dados.
+- Manipulação de Dados: Transformações e agrupamentos com Pandas.
+- Visualização de Dados: Criação de gráficos informativos para respostas estratégicas.
+- Estrutura de Controle: Utilização de condicionais para simulações de desconto.
+- Análise Estatística: Cálculo de médias e distribuições de vendas.
 
-- Estruturas de controle e laços: Manipulação da lógica do jogo.
-- Manipulação de strings: Verificação de acertos e posições das letras na palavra secreta.
-- Validação de dados: Garantia de que o usuário insira apenas letras e prevenção de entradas repetidas.
-- Programação Orientada a Objetos (na versão 3): Organização do código em classes para facilitar o desenvolvimento, manutenção e escalabilidade.
+## Como Executar a Análise
+1. Carregue o dataset dataset.csv com as colunas esperadas, como Cidade, Categoria, Valor_Venda, Data_Pedido, entre outras.
+2. Execute o código para gerar as análises e visualizações. Os gráficos serão exportados automaticamente para o diretório Analise de Vendas/images.
+3. Confira as respostas às perguntas de negócio nos logs gerados no terminal ou nos gráficos exportados.
 
-## Como Jogar
-
-1. Ao iniciar o jogo, uma palavra secreta é escolhida aleatoriamente.
-2. O jogador tenta adivinhar a palavra, inserindo uma letra por vez.
-3. Cada letra correta é revelada nas posições correspondentes da palavra.
-4. O jogador tem um número limitado de tentativas e perde se cometer erros excessivos.
+## Exemplos de Saídas
+- Pergunta 2: Total de vendas por data do pedido representado em um gráfico de linha.
+- Pergunta 5: Segmento com maior valor de vendas representado em um gráfico de pizza com as porcentagens.
+- Pergunta 10: Gráfico de pizza duplo que mostra a distribuição de vendas entre as principais subcategorias dentro de cada categoria.
 
 <hr>
 
-Este projeto é ideal para iniciantes, pois explora conceitos fundamentais da programação, como manipulação de strings, controle de fluxo e validação de dados. É também um exemplo prático de como construir um jogo simples e interativo em Python.
+Este projeto demonstra como a EDA pode ser aplicada para extrair insights valiosos em um ambiente de negócios, usando um fluxo completo de análise com Python.

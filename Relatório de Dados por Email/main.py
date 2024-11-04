@@ -3,7 +3,7 @@
 import pandas as pd
 
 # importar a base de dados
-tabela_vendas = pd.read_excel('exemplo_vendas.xlsx')
+tabela_vendas = pd.read_excel('Relatório de Dados por Email\exemplo_vendas.xlsx')
 
 # visualiar a base de dados
 # pd.set_option('display.max_columns', None)
