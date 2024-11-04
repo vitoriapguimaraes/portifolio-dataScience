@@ -4,11 +4,7 @@
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge)
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![Shutil](https://img.shields.io/badge/Shutil-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Tkinter](https://img.shields.io/badge/Tkinter-FF6F00?style=for-the-badge&logo=python&logoColor=white)
-![win32com.client](https://img.shields.io/badge/win32com.client-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![PyPDF2](https://img.shields.io/badge/PyPDF2-FFD43B?style=for-the-badge&logo=python&logoColor=black)
-![OS](https://img.shields.io/badge/OS%20Module-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 Este repositório contém uma coleção de projetos desenvolvidos em Python, abordando análise de dados, automação e interatividade. Cada projeto visa explorar habilidades de programação e aplicar conceitos de ciência de dados, manipulação de dados e programação orientada a objetos.
 
@@ -16,7 +12,7 @@ Este repositório contém uma coleção de projetos desenvolvidos em Python, abo
 ## Projetos
 
 ### 1. Análise Exploratória de Dados com Python Aplicada ao Varejo
-<!-- [![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portfolio-projetos-web-Java/tree/master/Calculadora%20de%20m%C3%A9dia) -->
+[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python/tree/main/Analise%20de%20Vendas)
 
 Análise de um banco de dados real do setor varejista para extração de insights comerciais e criação de gráficos informativos.
 - Tecnologias: Python, Pandas, Matplotlib, Jupyter Notebook
@@ -35,6 +31,8 @@ Uma versão orientada a objetos do clássico Jogo da Forca, desenvolvida em Pyth
     - Validação de entradas do usuário, com feedback para tentativas incorretas e controle das tentativas restantes.
 
 ### 3. Automação de Backup
+[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python/tree/main/Automo%C3%A7%C3%A3o%20de%20backup)
+
 Este projeto automatiza o backup de arquivos e pastas, criando cópias organizadas por data e hora. Foi projetado para simplificar e agilizar o processo de backup, garantindo a segurança dos dados.
 
 - Tecnologias: Python, OS, Shutil, Tkinter
@@ -45,6 +43,8 @@ Este projeto automatiza o backup de arquivos e pastas, criando cópias organizad
 - Exemplo de Teste: Realizou-se um teste criando um backup da pasta “teste”, para validar a funcionalidade.
 
 ### 4. Avaliação do Motivo de Cancelamento do Cartão
+[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python/tree/main/Avalia%C3%A7%C3%A3o%20Cancelamento%20de%20Cart%C3%A3o)
+
 Projeto de análise de dados que visa identificar padrões de comportamento entre clientes que cancelaram seus cartões. Com gráficos e estatísticas, ele busca entender variáveis que influenciam o cancelamento.
 
 - Tecnologias: Python, Pandas, Plotly, PyPDF2
@@ -55,6 +55,8 @@ Projeto de análise de dados que visa identificar padrões de comportamento entr
 - Resultados Esperados: Identificar variáveis associadas ao cancelamento, auxiliando na criação de estratégias de retenção de clientes.
 
 ### 5. Envio de Relatório de Dados por E-mail
+[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python/tree/main/Relat%C3%B3rio%20de%20Dados%20por%20Email)
+
 Automação de relatórios de vendas por loja, com processamento de dados e envio automático de um e-mail com o relatório em HTML. Ideal para equipes de vendas que precisam de atualizações frequentes.
 
 - Tecnologias: Python, Pandas, win32com.client
