@@ -5,7 +5,6 @@
 
 # Fonte: https://community.tableau.com/s/question/0D54T00000CWeX8SAL/sample-superstore-sales-excelxls
 
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -13,7 +12,6 @@ import seaborn as sns
 import datetime as dt
 
 ### Carregando os dados com pandas em Linguagem Python ###
-
 df = pd.read_csv("Analise de Vendas/datafiles/dataset.csv")
 
 print(f"\nShape dos dados é {df.shape}")

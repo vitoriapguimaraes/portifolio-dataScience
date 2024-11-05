@@ -1,0 +1,85 @@
+CURSO: Fundamentos de Linguagem Python para Analise de Dados e Data Science
+=> CAPÍTULO 18
+
+### Aprendizado Por Reforço(Reinforcement Learning)
+
+Seja bem-vindo(a) ao Capítulo 18. Este capítulo traz para você uma introdução a uma das
+mais avançadas técnicas de Machine Learning, o aprendizado por reforço.
+
+--------------------------------------------------------------------------------
+
+O Que é Aprendizado Por Reforço (Reinforcement Learning)?
+
+O Aprendizado por Reforço (Reinforcement Learning) é uma área de aprendizado de
+máquina que foca no treinamento de agentes para tomar decisões ótimas em um ambiente,
+através da interação com esse ambiente e da experimentação. O objetivo do agente é aprender
+uma política que mapeia estados do ambiente para ações que maximizam a recompensa
+acumulada ao longo do tempo. Recomendamos o capítulo 62 do Deep Learning para uma
+definição completa.
+Aqui está o link para você:
+https://www.deeplearningbook.com.br/o-que-e-aprendizagem-por-reforco/
+
+No Aprendizado por Reforço, o agente recebe uma recompensa (positiva ou negativa)
+após executar uma ação em um estado específico. Através dessas recompensas, o agente
+aprende a associar ações com estados do ambiente e assim consegue tomar decisões melhores
+ao longo do tempo.
+
+O processo de aprendizado ocorre iterativamente, em episódios, com o agente
+explorando o ambiente. A exploração envolve a escolha de ações aleatórias para descobrir novos
+estados e recompensas, sendo que as ações devem ser escolhidas de forma que maximizem a
+recompensa com base no conhecimento atual.
+
+Algoritmos mais comuns de Aprendizado por Reforço incluem: Q-Learning, Deep Q-
+Networks (DQN), Policy Gradients, Actor-Critic e Proximal Policy Optimization (PPO), entre
+outros. Esses algoritmos têm sido aplicados com sucesso em uma ampla variedade de problemas,
+incluindo jogos, robótica, otimização de sistemas e negociação de ações em bolsa de valores.
+
+Neste capítulo usaremos o Q-Learning.
+
+--------------------------------------------------------------------------------
+
+Algoritmo Q-Learning
+
+
+O Q-Learning é um algoritmo de aprendizado por reforço baseado em valor, que visa
+aprender uma função de valor-ação, chamada de função Q, para estimar o valor esperado de
+executar uma ação em um estado específico e seguir uma política ótima a partir daí. A função Q
+é representada como Q(s, a), onde s é o estado e a é a ação. O objetivo do Q-Learning é aprender
+a política ótima r(s) que maximiza a recompensa acumulada ao longo do tempo.
+
+O algoritmo Q-Learning segue um processo iterativo e pode ser descrito nos seguintes
+passos:
+
+  Inicialização: Inicialize a tabela Q com zeros (ou valores pequenos) para todos os pares
+    estado-ação (s, a).
+
+  Interação com o ambiente: O agente interage com o ambiente repetidamente,
+    executando episódios até que o algoritmo convirja ou um limite de episódios seja atingido.
+    Em cada episódio:
+
+      a. Observe o estado atual (s) do ambiente.
+
+      b. Selecione uma ação (a) com base na política atual, como a política ε-greedy, que
+        explora ações aleatórias com probabilidade ε e explora a ação com o maior valor Q(s, a) com
+        probabilidade 1 - ε.
+
+      c. Execute a ação (a) selecionada e observe a recompensa (r) e o próximo estado (s')
+        resultante.
+
+      d. Atualize a tabela Q usando a regra de atualização do Q-Learning:
+        Q(s, a) = Q(s, a) + α * (r + γ * max_a' Q(s', a') - Q(s, a))
+          onde α é a taxa de aprendizado, γ é o fator de desconto e max_a' Q(s', a') é o valor máximo
+          de Q para o próximo estado (s') e todas as ações possíveis (a').
+
+      e. Atualize o estado atual: s = s'.
+
+      f. Repita os passos b-e até que o episódio termine (por exemplo, o agente atinge um
+        estado terminal ou um limite de passos é atingido).
+
+Ao final do processo de aprendizado, o agente terá aprendido uma aproximação da
+função Q ótima, que pode ser usada para tomar decisões que maximizem a recompensa
+acumulada. Para escolher a ação ótima em um estado s, o agente simplesmente seleciona a ação
+a que possui o maior valor Q(s, a).
+
+Confira o passo a passo do algoritmo no Deep Learning Book:
+https://www.deeplearningbook.com.br/algoritmo-de-agente-baseado-em-ia-com-reinforcement-learning-q-learning/
