@@ -5,7 +5,7 @@
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 ![Tkinter](https://img.shields.io/badge/Tkinter-FF6F00?style=for-the-badge&logo=python&logoColor=white)
-![statsmodels](https://img.shields.io/badge/statsmodels-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Statsmodels](https://img.shields.io/badge/statsmodels-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-0A0A0A?style=for-the-badge&logo=scikit-learn)
 
 ### Documentação Adicional
@@ -16,6 +16,13 @@ Para mais informações sobre minhas qualificações e certificações, acesse o
 Este repositório contém uma coleção de projetos desenvolvidos em Python, abordando análise de dados, automação e interatividade. Cada projeto visa explorar habilidades de programação e aplicar conceitos de ciência de dados, manipulação de dados e programação orientada a objetos.
 
 ## Projetos
+
+### 1. Análise de Séries Temporais para Previsão de Vendas
+[acesse o repositorio]
+
+Este projeto aborda a análise e a previsão de vendas usando séries temporais. A partir dos dados históricos de vendas de 2023, ele visa prever o total de vendas para janeiro de 2024, utilizando técnicas de suavização exponencial com a biblioteca Statsmodels.
+- Tecnologias: Python, Numpy, Pandas, Matplotlib, Seaborn, Statsmodels
+- Funcionalidades: Importação de dados, visualização gráfica, suavização exponencial simples, previsão de vendas
 
 ### 1. Análise de Lucros em Negociações com Python
 [![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/An%C3%A1lise%20Estat%C3%ADstica%20com%20Statsmodels)
