@@ -24,7 +24,7 @@ Este projeto aborda a análise e a previsão de vendas usando séries temporais.
 - Tecnologias: Python, Numpy, Pandas, Matplotlib, Seaborn, Statsmodels
 - Funcionalidades: Importação de dados, visualização gráfica, suavização exponencial simples, previsão de vendas
 
-### 1. Análise de Lucros em Negociações com Python
+### 2. Análise de Lucros em Negociações com Python
 [![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/An%C3%A1lise%20Estat%C3%ADstica%20com%20Statsmodels)
 
 Desenvolvimento de um sistema para monitoramento e análise do lucro obtido em negociações financeiras, com cálculos de lucro final formatado e detalhado em relatório automatizado.
@@ -33,7 +33,7 @@ Desenvolvimento de um sistema para monitoramento e análise do lucro obtido em n
     - Cálculo e formatação do lucro final com precisão de duas casas decimais.
     - Automação de relatórios para visualização de saldo inicial e resultados financeiros.
 
-### 2. Predição Salarial com Machine Learning Baseada em Horas de Estudo
+### 3. Predição Salarial com Machine Learning Baseada em Horas de Estudo
 [![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/Machine%20Learning%20para%20Predi%C3%A7%C3%A3o%20Salarial)
 
 Projeto de Machine Learning utilizando Python e Scikit-Learn para prever salário com base nas horas de estudo mensais. O modelo, treinado com dados históricos, é avaliado pelo coeficiente **R&sup2;**.
@@ -44,7 +44,7 @@ Projeto de Machine Learning utilizando Python e Scikit-Learn para prever salári
     - Avaliação de desempenho do modelo
     - Previsões salariais a partir de novos valores de horas de estudo
 
-### 3. Análise Exploratória de Dados com Python Aplicada ao Varejo
+### 4. Análise Exploratória de Dados com Python Aplicada ao Varejo
 [![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/Analise%20de%20Vendas)
 
 Análise de um banco de dados real do setor varejista para extração de insights comerciais e criação de gráficos informativos.
@@ -53,7 +53,7 @@ Análise de um banco de dados real do setor varejista para extração de insight
     - Análise exploratória e limpeza de dados.
     - Criação de visualizações informativas para identificação de padrões e insights.
 
-### 4. Jogo da Forca
+### 5. Jogo da Forca
 [![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/Jogo%20da%20Forca)
 
 Uma versão orientada a objetos do clássico Jogo da Forca, desenvolvida em Python, com funcionalidades de validação de entradas e controle de tentativas do usuário.
@@ -63,7 +63,7 @@ Uma versão orientada a objetos do clássico Jogo da Forca, desenvolvida em Pyth
     - Implementação da lógica básica do Jogo da Forca.
     - Validação de entradas do usuário, com feedback para tentativas incorretas e controle das tentativas restantes.
 
-### 5. Automação de Backup
+### 6. Automação de Backup
 [![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/Automo%C3%A7%C3%A3o%20de%20backup)
 
 Este projeto automatiza o backup de arquivos e pastas, criando cópias organizadas por data e hora. Foi projetado para simplificar e agilizar o processo de backup, garantindo a segurança dos dados.
@@ -75,7 +75,7 @@ Este projeto automatiza o backup de arquivos e pastas, criando cópias organizad
     - Cópia de arquivos e diretórios inteiros, preservando estrutura e metadados.
 - Exemplo de Teste: Realizou-se um teste criando um backup da pasta “teste”, para validar a funcionalidade.
 
-### 6. Avaliação do Motivo de Cancelamento do Cartão
+### 7. Avaliação do Motivo de Cancelamento do Cartão
 [![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/Avalia%C3%A7%C3%A3o%20Cancelamento%20de%20Cart%C3%A3o)
 
 Projeto de análise de dados que visa identificar padrões de comportamento entre clientes que cancelaram seus cartões. Com gráficos e estatísticas, ele busca entender variáveis que influenciam o cancelamento.
@@ -87,7 +87,7 @@ Projeto de análise de dados que visa identificar padrões de comportamento entr
     - Exportação de histogramas em arquivos PDF e agrupamento dos gráficos em um único documento.
 - Resultados Esperados: Identificar variáveis associadas ao cancelamento, auxiliando na criação de estratégias de retenção de clientes.
 
-### 7. Envio de Relatório de Dados por E-mail
+### 8. Envio de Relatório de Dados por E-mail
 [![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/Relat%C3%B3rio%20de%20Dados%20por%20Email)
 
 Automação de relatórios de vendas por loja, com processamento de dados e envio automático de um e-mail com o relatório em HTML. Ideal para equipes de vendas que precisam de atualizações frequentes.
@@ -99,7 +99,7 @@ Automação de relatórios de vendas por loja, com processamento de dados e envi
     - Envio de e-mail em formato HTML com tabelas de resultados integradas, prontas para visualização direta no corpo do e-mail.
 - Benefícios: Simplifica a rotina de relatórios e reduz a necessidade de tarefas manuais, aumentando a produtividade da equipe de vendas.
 
-### 8. Calculadora
+### 9. Calculadora
 [![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/Calculadora)
 
 Uma calculadora simples que realiza operações básicas e oferece validação e tratamento de erros.
