@@ -16,7 +16,7 @@ Este repositório contém uma coleção de projetos desenvolvidos em Python, abo
 
 ## Projetos
 
-### 1. Projeto de Análise de Lucros em Negociações com Python [Acesse o Repositório]
+### 1. Projeto de Análise de Lucros em Negociações com Python
 [![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/An%C3%A1lise%20Estat%C3%ADstica%20com%20Statsmodels)
 
 Desenvolvimento de um sistema para monitoramento e análise do lucro obtido em negociações financeiras, com cálculos de lucro final formatado e detalhado em relatório automatizado.
