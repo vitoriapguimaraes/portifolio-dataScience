@@ -18,7 +18,7 @@ Este repositório contém uma coleção de projetos desenvolvidos em Python, abo
 ## Projetos
 
 ### 1. Análise de Séries Temporais para Previsão de Vendas
-[acesse o repositorio]
+[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/Previs%C3%A3o%20de%20Vendas%20com%20Suaviza%C3%A7%C3%A3o%20Exponencial)
 
 Este projeto aborda a análise e a previsão de vendas usando séries temporais. A partir dos dados históricos de vendas de 2023, ele visa prever o total de vendas para janeiro de 2024, utilizando técnicas de suavização exponencial com a biblioteca Statsmodels.
 - Tecnologias: Python, Numpy, Pandas, Matplotlib, Seaborn, Statsmodels
