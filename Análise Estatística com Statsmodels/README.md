@@ -11,15 +11,15 @@ O objetivo deste projeto é construir um modelo de regressão linear que possa p
 
 ## Estrutura do Projeto
 1. Análise Exploratória dos Dados:
-  - Visualização da distribuição do valor do aluguel.
-  - Análise de correlação entre as variáveis <code>area_m2</code> e <code>valor_aluguel</code>.
+    - Visualização da distribuição do valor do aluguel.
+    - Análise de correlação entre as variáveis <code>area_m2</code> e <code>valor_aluguel</code>.
 2. Modelagem Estatística:
-  - Construção de um modelo de Regressão Linear Simples (OLS - Ordinary Least Squares) para prever <code>valor_aluguel</code> com base na <code>area_m2</code>.
-  - Exibição dos coeficientes do modelo e interpretação do **R&sup2;**.
+    - Construção de um modelo de Regressão Linear Simples (OLS - Ordinary Least Squares) para prever <code>valor_aluguel</code> com base na <code>area_m2</code>.
+    - Exibição dos coeficientes do modelo e interpretação do **R&sup2;**.
 3. Visualização dos Resultados:
-  - Plotagem da linha de regressão sobre os dados reais para visualização da adequação do modelo.
+    - Plotagem da linha de regressão sobre os dados reais para visualização da adequação do modelo.
 4. Conclusão:
-- Análise do resultado obtido e sugestões para melhorar o modelo, como adicionar mais variáveis explicativas.
+    - Análise do resultado obtido e sugestões para melhorar o modelo, como adicionar mais variáveis explicativas.
 
 ## Interpretação dos Resultados
 O modelo de Regressão Linear apresentou um coeficiente de determinação **R&sup2;** que indica a fração da variabilidade de <code>valor_aluguel</code> explicada por <code>area_m2</code>. No entanto, um valor baixo de **R&sup2;** sugere que apenas a área do imóvel pode não ser suficiente para prever o valor do aluguel com precisão. Outras variáveis podem ser consideradas para melhorar o modelo.
