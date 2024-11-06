@@ -7,7 +7,7 @@
 ![Tkinter](https://img.shields.io/badge/Tkinter-FF6F00?style=for-the-badge&logo=python&logoColor=white)
 ![Statsmodels](https://img.shields.io/badge/statsmodels-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-0A0A0A?style=for-the-badge&logo=scikit-learn)
-![Q-Learning](https://img.shields.io/badge/Q--Learning-0A0A0A?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAVFBMVEUAAAA/Pz+Pj4+SkpKqqqq2trby8vLa2tr29vbm5ubn5+ff39+goKDg4ODm5uba2trf39+np6e6urro6Ojw8PDr6+v///9+fn5LS0tyclbPAAAAxElEQVR42o2RyQ7CQBAFB+FVUDvS///zSdbesgmV7GPOwouKiKktFwB9MLDHHMj48G4bG8UNHRvFhqdlAfgP7CXFozK6gpXHdHRM8XnC3FqaZExFjHpn1pPKivAsbl+MyrNtwj9mr9WZ9+9QXv8OncSncX4HkO3dcjtCnKYTpAgDPdoWnMEAsy+AXgk3z2YJa5hhclKztQ2OIWq9Qe6hcECdoB/YNB7C3DGWrFY1GY2GM9T6NcUp82yrptZhDN7CpXFdciI8FPpDZ6OkuyU8QwAAAABJRU5ErkJggg==)
+![Q-Learning](https://img.shields.io/badge/Q--Learning-0A0A0A?style=for-the-badge)
 
 ### Documentação Adicional
 Para mais informações sobre minhas qualificações e certificações, acesse os arquivos disponíveis na pasta <code>_DOCUMENTOS</code>. Nela, você encontrará: certificados relevantes, meu currículo atualizado e meu perfil no LinkedIn.
@@ -60,7 +60,7 @@ Análise de um banco de dados real do setor varejista para extração de insight
     - Criação de visualizações informativas para identificação de padrões e insights.
 
 ## 6. Robô Trading com Inteligência Artificial usando Q-Learning em Python
-[Acesse o repositório]
+[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/Rob%C3%B4%20Trading%20com%20Q-Learning)
 
 Criar um robô que toma decisões de compra e venda de ações para maximizar o lucro.
 - Tecnologias: Python, Pandas, Numpy, Plotly, Q-Learning
