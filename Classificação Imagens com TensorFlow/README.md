@@ -10,19 +10,12 @@ O projeto visa responder ao problema de negócio: "Dada uma nova imagem de uma d
    - Numpy - para manipulação de arrays numéricos
 
 ## Funcionalidades
-Carregamento e Pré-processamento de Dados: Carrega o dataset CIFAR-10 e normaliza os valores dos pixels para a mesma escala.
-Visualização das Imagens: Exibe as imagens do conjunto de treino para análise visual inicial.
-Construção e Compilação do Modelo: Define uma Rede Neural Convolucional (CNN) com camadas de convolução, pooling e densa para classificação.
-Treinamento do Modelo: Realiza o treinamento da CNN utilizando o conjunto de dados de treino.
-Avaliação e Acurácia: Avalia o modelo no conjunto de teste e exibe a acurácia obtida.
-Classificação de Novas Imagens: Carrega, processa e classifica uma nova imagem, exibindo o resultado.
-
-Passo a Passo
-Carregamento e Visualização: Utiliza a função visualiza_imagens para exibir exemplos de imagens e suas respectivas categorias.
-Construção da CNN: Define a arquitetura da rede neural com camadas de convolução, max pooling e densa.
-Compilação e Treinamento: Configura a rede neural, define o otimizador e realiza o treinamento.
-Avaliação do Modelo: Avalia a acurácia no conjunto de teste e exibe o sumário do modelo.
-Classificação de Nova Imagem: Executa uma previsão para uma imagem nova e mostra o resultado.
+1. Carregamento e Pré-processamento de Dados: Carrega o dataset CIFAR-10 e normaliza os valores dos pixels para a mesma escala.
+2. Visualização das Imagens: Exibe as imagens do conjunto de treino para análise visual inicial.
+3. Construção e Compilação do Modelo: Define uma Rede Neural Convolucional (CNN) com camadas de convolução, pooling e densa para classificação.
+4. Treinamento do Modelo: Realiza o treinamento da CNN utilizando o conjunto de dados de treino.
+5. Avaliação e Acurácia: Avalia o modelo no conjunto de teste e exibe a acurácia obtida.
+6. Classificação de Novas Imagens: Carrega, processa e classifica uma nova imagem, exibindo o resultado.
 
 ## Resultados
 O modelo é capaz de classificar imagens novas com boa precisão, mostrando a viabilidade de se aplicar redes neurais convolucionais em tarefas de classificação de imagens.
