@@ -7,6 +7,7 @@
 ![Tkinter](https://img.shields.io/badge/Tkinter-FF6F00?style=for-the-badge&logo=python&logoColor=white)
 ![Statsmodels](https://img.shields.io/badge/statsmodels-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-0A0A0A?style=for-the-badge&logo=scikit-learn)
+![Q-Learning](https://img.shields.io/badge/Q--Learning-0A0A0A?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAVFBMVEUAAAA/Pz+Pj4+SkpKqqqq2trby8vLa2tr29vbm5ubn5+ff39+goKDg4ODm5uba2trf39+np6e6urro6Ojw8PDr6+v///9+fn5LS0tyclbPAAAAxElEQVR42o2RyQ7CQBAFB+FVUDvS///zSdbesgmV7GPOwouKiKktFwB9MLDHHMj48G4bG8UNHRvFhqdlAfgP7CXFozK6gpXHdHRM8XnC3FqaZExFjHpn1pPKivAsbl+MyrNtwj9mr9WZ9+9QXv8OncSncX4HkO3dcjtCnKYTpAgDPdoWnMEAsy+AXgk3z2YJa5hhclKztQ2OIWq9Qe6hcECdoB/YNB7C3DGWrFY1GY2GM9T6NcUp82yrptZhDN7CpXFdciI8FPpDZ6OkuyU8QwAAAABJRU5ErkJggg==)
 
 ### Documentação Adicional
 Para mais informações sobre minhas qualificações e certificações, acesse os arquivos disponíveis na pasta <code>_DOCUMENTOS</code>. Nela, você encontrará: certificados relevantes, meu currículo atualizado e meu perfil no LinkedIn.
@@ -58,7 +59,14 @@ Análise de um banco de dados real do setor varejista para extração de insight
     - Análise exploratória e limpeza de dados.
     - Criação de visualizações informativas para identificação de padrões e insights.
 
-## 6. Jogo da Forca
+## 6. Robô Trading com Inteligência Artificial usando Q-Learning em Python
+[Acesse o repositório]
+
+Criar um robô que toma decisões de compra e venda de ações para maximizar o lucro.
+- Tecnologias: Python, Pandas, Numpy, Plotly, Q-Learning
+- Funcionalidades: Visualização dos dados, configuração e treinamento do modelo Q-Learning, execução do robô
+
+## 7. Jogo da Forca
 [![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/Jogo%20da%20Forca)
 
 Uma versão orientada a objetos do clássico Jogo da Forca, desenvolvida em Python, com funcionalidades de validação de entradas e controle de tentativas do usuário.
@@ -68,7 +76,7 @@ Uma versão orientada a objetos do clássico Jogo da Forca, desenvolvida em Pyth
     - Implementação da lógica básica do Jogo da Forca.
     - Validação de entradas do usuário, com feedback para tentativas incorretas e controle das tentativas restantes.
 
-## 7. Automação de Backup
+## 8. Automação de Backup
 [![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/Automo%C3%A7%C3%A3o%20de%20backup)
 
 Este projeto automatiza o backup de arquivos e pastas, criando cópias organizadas por data e hora. Foi projetado para simplificar e agilizar o processo de backup, garantindo a segurança dos dados.
@@ -80,7 +88,7 @@ Este projeto automatiza o backup de arquivos e pastas, criando cópias organizad
     - Cópia de arquivos e diretórios inteiros, preservando estrutura e metadados.
 - Exemplo de Teste: Realizou-se um teste criando um backup da pasta “teste”, para validar a funcionalidade.
 
-## 8. Avaliação do Motivo de Cancelamento do Cartão
+## 9. Avaliação do Motivo de Cancelamento do Cartão
 [![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/Avalia%C3%A7%C3%A3o%20Cancelamento%20de%20Cart%C3%A3o)
 
 Projeto de análise de dados que visa identificar padrões de comportamento entre clientes que cancelaram seus cartões. Com gráficos e estatísticas, ele busca entender variáveis que influenciam o cancelamento.
@@ -92,7 +100,7 @@ Projeto de análise de dados que visa identificar padrões de comportamento entr
     - Exportação de histogramas em arquivos PDF e agrupamento dos gráficos em um único documento.
 - Resultados Esperados: Identificar variáveis associadas ao cancelamento, auxiliando na criação de estratégias de retenção de clientes.
 
-## 9. Envio de Relatório de Dados por E-mail
+## 10. Envio de Relatório de Dados por E-mail
 [![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/Relat%C3%B3rio%20de%20Dados%20por%20Email)
 
 Automação de relatórios de vendas por loja, com processamento de dados e envio automático de um e-mail com o relatório em HTML. Ideal para equipes de vendas que precisam de atualizações frequentes.
@@ -104,7 +112,7 @@ Automação de relatórios de vendas por loja, com processamento de dados e envi
     - Envio de e-mail em formato HTML com tabelas de resultados integradas, prontas para visualização direta no corpo do e-mail.
 - Benefícios: Simplifica a rotina de relatórios e reduz a necessidade de tarefas manuais, aumentando a produtividade da equipe de vendas.
 
-## 10. Calculadora
+## 11. Calculadora
 [![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/Calculadora)
 
 Uma calculadora simples que realiza operações básicas e oferece validação e tratamento de erros.
