@@ -23,7 +23,7 @@ Este projeto aborda a análise e a previsão de vendas usando séries temporais.
 - Funcionalidades: Importação de dados, visualização gráfica, suavização exponencial simples, previsão de vendas
 
 ## 2. Classificação de Imagens com Redes Neurais Convolucionais e TensorFlow
-[Acesse o Repositório]
+[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/Classifica%C3%A7%C3%A3o%20Imagens%20com%20TensorFlow)
 
 Este projeto aborda a construção de um modelo de Inteligência Artificial para classificação de imagens em 10 categorias diferentes usando o dataset CIFAR-10. O objetivo é que o modelo consiga identificar e classificar novas imagens de acordo com essas categorias.
 - Tecnologias: Python, TensorFlow, Keras, Numpy, Matplotlib, PIL
