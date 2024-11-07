@@ -8,6 +8,9 @@
 ![Statsmodels](https://img.shields.io/badge/statsmodels-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-0A0A0A?style=for-the-badge&logo=scikit-learn)
 ![Q-Learning](https://img.shields.io/badge/Q--Learning-0A0A0A?style=for-the-badge)
+![PyAutoGUI](https://img.shields.io/badge/PyAutoGUI-3766AB?style=for-the-badge&logo=python&logoColor=white)
+![Flask-SocketIO](https://img.shields.io/badge/Flask--SocketIO-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Flet](https://img.shields.io/badge/Flet-FFD43B?style=for-the-badge&logo=python&logoColor=black)
 
 ### Documentação Adicional
 Para mais informações sobre minhas qualificações e certificações, acesse os arquivos disponíveis na pasta <code>_DOCUMENTOS</code>. Nela, você encontrará: certificados relevantes, meu currículo atualizado e meu perfil no LinkedIn.
@@ -66,7 +69,46 @@ Criar um robô que toma decisões de compra e venda de ações para maximizar o 
 - Tecnologias: Python, Pandas, Numpy, Plotly, Q-Learning
 - Funcionalidades: Visualização dos dados, configuração e treinamento do modelo Q-Learning, execução do robô
 
-## 7. Jogo da Forca
+## 8. Automação de Cadastro de Produtos em Portal Web
+[acesse o repositório]
+
+Este projeto automatiza o cadastro de produtos em um site de vendas, acessando automaticamente o site e preenchendo os formulários de cadastro com dados de um arquivo CSV.
+- Tecnologias: Python, PyAutoGUI, Pandas
+- Funcionalidades:
+    - Login automatizado no portal de vendas.
+    - Cadastro em lote de produtos.
+    - Configuração de coordenadas de clique para diferentes monitores com script auxiliar.
+
+## 9. Análise e Redução de Cancelamentos de Clientes em Serviço de Assinatura
+[acesse o repositório]
+
+Análise de dados para identificar fatores que levam ao cancelamento de clientes e definir ações de retenção, com base em um conjunto de dados de uma empresa de assinaturas.
+- Tecnologias: Python, Pandas, Plotly, JupyterNotebook
+- Funcionalidades:
+    - Identificação de fatores associados ao cancelamento.
+    - Análise de padrões de comportamento dos clientes.
+    - Geração de insights para estratégias de retenção.
+
+## 10. Sistema de Previsão de Score de Crédito para Clientes Bancários
+[acesse o repositório]
+
+Análise de dados para previsão do score de crédito de clientes de um banco, com modelo de machine learning e insights sobre as características mais relevantes para definir o score.
+- Tecnologias: Python, Pandas, Scikit-learn, JupyterNotebook
+- Funcionalidades:
+    - Previsão de score de crédito (Ruim, Ok, Bom).
+    - Comparação de modelos de Machine Learning (Random Forest e KNN).
+    - Identificação das características mais relevantes para análise de crédito.
+
+## 11. HashZap: Chat em Tempo Real
+[acesse o repositório]
+
+Chat em tempo real com Flask-SocketIO e uma versão alternativa em Flet.
+- Tecnologias: Python, Flask-SocketIO, Flet
+- Funcionalidades:
+    - Chat em tempo real para múltiplos usuários na mesma rede.
+    - Envio e exibição de mensagens instantâneas com atualizações automáticas.
+
+## 12. Jogo da Forca
 [![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/Jogo%20da%20Forca)
 
 Uma versão orientada a objetos do clássico Jogo da Forca, desenvolvida em Python, com funcionalidades de validação de entradas e controle de tentativas do usuário.
@@ -76,7 +118,7 @@ Uma versão orientada a objetos do clássico Jogo da Forca, desenvolvida em Pyth
     - Implementação da lógica básica do Jogo da Forca.
     - Validação de entradas do usuário, com feedback para tentativas incorretas e controle das tentativas restantes.
 
-## 8. Automação de Backup
+## 13. Automação de Backup
 [![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/Automo%C3%A7%C3%A3o%20de%20backup)
 
 Este projeto automatiza o backup de arquivos e pastas, criando cópias organizadas por data e hora. Foi projetado para simplificar e agilizar o processo de backup, garantindo a segurança dos dados.
@@ -88,7 +130,7 @@ Este projeto automatiza o backup de arquivos e pastas, criando cópias organizad
     - Cópia de arquivos e diretórios inteiros, preservando estrutura e metadados.
 - Exemplo de Teste: Realizou-se um teste criando um backup da pasta “teste”, para validar a funcionalidade.
 
-## 9. Avaliação do Motivo de Cancelamento do Cartão
+## 14. Avaliação do Motivo de Cancelamento do Cartão
 [![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/Avalia%C3%A7%C3%A3o%20Cancelamento%20de%20Cart%C3%A3o)
 
 Projeto de análise de dados que visa identificar padrões de comportamento entre clientes que cancelaram seus cartões. Com gráficos e estatísticas, ele busca entender variáveis que influenciam o cancelamento.
@@ -100,7 +142,7 @@ Projeto de análise de dados que visa identificar padrões de comportamento entr
     - Exportação de histogramas em arquivos PDF e agrupamento dos gráficos em um único documento.
 - Resultados Esperados: Identificar variáveis associadas ao cancelamento, auxiliando na criação de estratégias de retenção de clientes.
 
-## 10. Envio de Relatório de Dados por E-mail
+## 15. Envio de Relatório de Dados por E-mail
 [![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/Relat%C3%B3rio%20de%20Dados%20por%20Email)
 
 Automação de relatórios de vendas por loja, com processamento de dados e envio automático de um e-mail com o relatório em HTML. Ideal para equipes de vendas que precisam de atualizações frequentes.
@@ -112,7 +154,7 @@ Automação de relatórios de vendas por loja, com processamento de dados e envi
     - Envio de e-mail em formato HTML com tabelas de resultados integradas, prontas para visualização direta no corpo do e-mail.
 - Benefícios: Simplifica a rotina de relatórios e reduz a necessidade de tarefas manuais, aumentando a produtividade da equipe de vendas.
 
-## 11. Calculadora
+## 16. Calculadora
 [![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/Calculadora)
 
 Uma calculadora simples que realiza operações básicas e oferece validação e tratamento de erros.
