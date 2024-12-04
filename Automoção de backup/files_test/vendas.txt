@@ -1,6 +1,0 @@
-Andre, 300
-Joao, 500
-Ana, 5000
-Julia, 10000
-Marcus, 9000
-Alon, 8000
