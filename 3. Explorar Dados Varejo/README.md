@@ -1,49 +1,60 @@
 # Análise Exploratória de Dados com Python Aplicada ao Varejo
-Este projeto realiza uma Análise Exploratória de Dados (EDA) aplicada ao setor de varejo, utilizando Python. A análise se concentra em responder perguntas de negócios para gerar insights práticos sobre as vendas em diferentes categorias, cidades e períodos.
+Este projeto realiza uma análise exploratória de dados no setor de varejo, utilizando um dataset com informações de vendas. O objetivo é gerar insights relevantes para a tomada de decisão, aplicando técnicas de manipulação de dados e visualização. A análise permite identificar padrões de comportamento de compra, impactos de descontos e outros fatores que influenciam as vendas.
 
-## Funcionalidades Gerais
-- Carregamento e pré-processamento de dados com Pandas.
-- Análise exploratória de dados para responder a perguntas estratégicas do setor de varejo.
-- Visualização de dados com gráficos diversos, incluindo gráficos de linhas, barras e pizza.
-- Exportação de gráficos gerados para um diretório específico.
+Este projeto também está sendo adaptado para visualização na web, com o desenvolvimento em andamento. A versão em processo, utilizando Docker, pode ser encontrada e acessada na pasta <code>WebDockerVersion</code> 
+
+>>> (colocar link? nesse modelo [![Documentos](https://img.shields.io/badge/DOCUMENTOS-%F0%9F%93%83-blue?style=flat-square)](https://github.com/vitoriapguimaraes/vitoriapguimaraes/tree/main/DOCUMENTOS)). <<<
+
+## Demonstração/Visualização
+A análise inclui gráficos e visualizações detalhadas que mostram tendências de vendas, a relação entre descontos e volume de compras, entre outros insights. Além disso, são feitas simulações com diferentes cenários de preços e descontos para prever impactos nas vendas.
+
+![Tela do sistema](link)
+
+## Principais Tecnologias Utilizadas
+- Python: Linguagem de programação principal
+- Pandas: Manipulação de dados
+- Matplotlib e Seaborn: Visualizações gráficas
+- Jupyter Notebook: Ambiente interativo para desenvolvimento e visualização de resultados
 
 ## Estrutura do Projeto
-- Carregamento e inspeção dos dados: Verificação de registros duplicados, valores ausentes e análise descritiva.
-- Perguntas de Negócio:
-  - Pergunta 1: Identificação da cidade com maior valor de vendas para produtos da categoria "Office Supplies".
-  - Pergunta 2: Total de vendas por data do pedido, exibido em gráfico de linha.
-  - Pergunta 3: Total de vendas por estado, exibido em gráfico de barras.
-  - Pergunta 4: As 10 cidades com maior valor de vendas, exibido em gráfico de barras.
-  - Pergunta 5: Segmento com maior valor de vendas, exibido em gráfico de pizza.
-  - Pergunta 6: Total de vendas por segmento e por ano.
-  - Pergunta 7: Simulação de faixas de desconto com contagem de vendas que receberiam 15% de desconto.
-  - Pergunta 8: Média de valor de vendas antes e depois do desconto de 15%.
-  - Pergunta 9: Média de vendas por segmento, por ano e por mês, exibido em gráfico de linha.
-  - Pergunta 10: Total de vendas por categoria e subcategoria (Top 12), exibido em gráfico de pizza.
+```
+├── WebDockerVersion         # Versão do script ajustada para web, utilizando Docker
+├── app-analise.py           # Script principal
+└── dataset.csv              # Contém o arquivo da base de dados utilizada para análise
+```
 
-## Ferramentas e Tecnologias Utilizadas
-- Python: Linguagem de programação principal.
-- Pandas: Manipulação e análise dos dados.
-- Matplotlib e Seaborn: Visualização de dados.
-- Git e GitHub: Controle de versão e hospedagem do código.
+## Como Executar
+- Certifique-se de ter Python instalado (>= 3.7).
+- Instale as dependências necessárias executando:
+      ```
+      pip install pandas numpy matplotlib seaborn datetime
+      ```
 
-## Conhecimentos Aplicados
-- Análise Exploratória de Dados (EDA): Inspeção visual e estatística dos dados.
-- Manipulação de Dados: Transformações e agrupamentos com Pandas.
-- Visualização de Dados: Criação de gráficos informativos para respostas estratégicas.
-- Estrutura de Controle: Utilização de condicionais para simulações de desconto.
-- Análise Estatística: Cálculo de médias e distribuições de vendas.
+### Etapas:
+1. Execute o script com:
+      ```
+      python app-analise.py
+      ```
 
-## Como Executar a Análise
-1. Carregue o dataset dataset.csv com as colunas esperadas, como Cidade, Categoria, Valor_Venda, Data_Pedido, entre outras.
-2. Execute o código para gerar as análises e visualizações. Os gráficos serão exportados automaticamente para o diretório Analise de Vendas/images.
-3. Confira as respostas às perguntas de negócio nos logs gerados no terminal ou nos gráficos exportados.
+2. Resultados: As respostas das perguntas de negócios estão apresentadas no <code>console</code> e as imagens salvas em <code>images</code>.
 
-## Exemplos de Saídas
-- Pergunta 2: Total de vendas por data do pedido representado em um gráfico de linha.
-- Pergunta 5: Segmento com maior valor de vendas representado em um gráfico de pizza com as porcentagens.
-- Pergunta 10: Gráfico de pizza duplo que mostra a distribuição de vendas entre as principais subcategorias dentro de cada categoria.
+## Funcionalidades
+- Carregamento e limpeza de dados com Pandas.
+- Visualização gráfica das vendas e dos efeitos de descontos com Matplotlib e Seaborn.
+- Análise de correlações e tendências de vendas com base em diferentes variáveis.
+- Simulação de cenários de preços e descontos para prever impactos nas vendas.
 
-<hr>
+## Resultados e Conclusões
+- Identificação de padrões de vendas sazonalidade.
+- Análise do impacto de descontos no volume de vendas.
+- Gráficos de correlação que mostram a relação entre diferentes fatores (como preço, desconto e volume de vendas).
 
-Este projeto demonstra como a EDA pode ser aplicada para extrair insights valiosos em um ambiente de negócios, usando um fluxo completo de análise com Python.
+## Próximos Passos/Melhorias
+- Implementar um dashboard interativo para visualização em tempo real.
+
+<br>
+<hr> 
+
+### Currículos e Documentos
+Acesse os arquivos disponíveis na pasta 
+[![Documentos](https://img.shields.io/badge/DOCUMENTOS-%F0%9F%93%83-blue?style=flat-square)](https://github.com/vitoriapguimaraes/vitoriapguimaraes/tree/main/DOCUMENTOS) para mais informações sobre minhas qualificações e certificações.
