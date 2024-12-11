@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Pergunta 1</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">  
+</head>
+<body>
+  <div class="link-container">
+    <a href="http://localhost:8080/">Sumário</a>
+    <div class="right-links">
+      <a class="inactive">Anterior</a>
+      <a href="http://localhost:8080/pergunta2">Próximo</a>
+    </div>
+  </div>
+  <h2>Pergunta de Negócio 1</h2>
+  <h2>Qual Cidade com Maior Valor de Venda de Produtos da Categoria 'Office Supplies'?</h2>
+  <h3>Resposta: {{ cidade_maior_venda }}</h3>
+  <p>Para conferir o resultado, segue a lista do maior para o menor valor de venda:</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Cidade</th>
+        <th>Total de Vendas (R$)</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for cidade, valor in df_p1_sorted.items() %}
+      <tr>
+        <td>{{ cidade }}</td>
+        <td>R$ {{ '{:,.2f}'.format(valor).replace(',', 'X').replace('.', ',').replace('X', '.') }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</body>
+</html>

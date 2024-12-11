@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Pergunta 3</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">  
+</head>
+<body>
+    <div class="link-container">
+        <a href="http://localhost:8080/">Sumário</a>
+        <div class="right-links">
+            <a href="http://localhost:8080/pergunta2">Anterior</a>
+            <a href="http://localhost:8080/pergunta4">Próximo</a>
+        </div>
+    </div>
+    <h2>Pergunta de Negócio 3</h2>
+    <h2>Qual o Total de Vendas por Estado?</h2>
+    <p>O gráfico abaixo mostra o total de vendas por estado.</p>
+    <img src="data:image/png;base64,{{ img_data }}" alt="Gráfico de Total de Vendas por Estado">
+    <p>Para conferir o resultado, segue a lista do maior para o menor valor de venda, por data do pedido:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>Total de Vendas (R$)</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in df_p3_sorted.itertuples() %}
+            <tr>
+                <td>{{ row.Estado }}</td>
+                <td>R$ {{ '{:,.2f}'.format(row.Valor_Venda).replace(',', 'X').replace('.', ',').replace('X', '.') }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

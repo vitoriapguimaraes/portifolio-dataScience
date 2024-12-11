@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Pergunta 2</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">  
+</head>
+<body>
+    <div class="link-container">
+        <a href="http://localhost:8080/">Sumário</a>
+        <div class="right-links">
+            <a href="http://localhost:8080/pergunta1">Anterior</a>
+            <a href="http://localhost:8080/pergunta3">Próximo</a>
+        </div>
+    </div>
+    <h2>Pergunta de Negócio 2</h2>
+    <h2>Qual o Total de Vendas Por Data do Pedido?</h2>
+    <p>O gráfico abaixo mostra o total de vendas por data do pedido.</p>
+    <img src="data:image/png;base64,{{ img_data }}" alt="Gráfico de Total de Vendas por Data do Pedido">
+    <p>Para conferir o resultado, segue a lista dos valores de venda, por data do pedido:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Data do Pedido</th>
+                <th>Total de Vendas (R$)</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for data, valor in df_p2_sorted.items() %}
+            <tr>
+                <td>{{ data.strftime('%d/%m/%Y') }}</td>
+                <td>R$ {{ '{:,.2f}'.format(valor).replace(',', 'X').replace('.', ',').replace('X', '.') }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

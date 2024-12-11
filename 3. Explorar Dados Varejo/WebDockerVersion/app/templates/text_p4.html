@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Pergunta 4</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">  
+</head>
+<body>
+    <div class="link-container">
+        <a href="http://localhost:8080/">Sumário</a>
+        <div class="right-links">
+            <a href="http://localhost:8080/pergunta3">Anterior</a>
+            <a href="http://localhost:8080/pergunta5">Próximo</a>
+        </div>
+    </div>
+    <h2>Pergunta de Negócio 4</h2>
+    <h2>Quais São as 10 Cidades com Maior Total de Vendas?</h2>
+    <p>As 10 Cidades com Maior Total de Vendas:</p>
+    <img src="data:image/png;base64,{{ img_data }}" alt="As 10 Cidades com Maior Total de Vendas">
+    <p>Para conferir o resultado, segue a lista das 10 Cidades e respectivas vendas:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Cidade</th>
+                <th>Total de Vendas (R$)</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in df_p4.itertuples() %}
+            <tr>
+                <td>{{ row.Cidade }}</td>
+                <td>R$ {{ '{:,.2f}'.format(row.Valor_Venda).replace(',', 'X').replace('.', ',').replace('X', '.') }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pergunta 5</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="link-container">
+      <a href="http://localhost:8080/">Sumário</a>
+      <div class="right-links">
+        <a href="http://localhost:8080/pergunta4">Anterior</a>
+        <a href="http://localhost:8080/pergunta6">Próximo</a>
+      </div>
+    </div>
+    <h2>Pergunta de Negócio 5</h2>
+    <h2>Qual Segmento Teve o Maior Total de Vendas?</h2>
+    <h3>Resposta: {{ segmento_maior_venda }}</h3>
+    <p>Os Segmentos que tiveram Maior Total de Vendas:</p>
+    <img
+      src="data:image/png;base64,{{ img_data }}"
+      alt="Segmentos com Maior Total de Vendas"
+    />
+    <p>
+      Para conferir o resultado, segue a lista dos Segmentos e respectivas
+      vendas:
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Segmento</th>
+          <th>Total de Vendas (R$)</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in df_p5.itertuples() %}
+        <tr>
+          <td>{{ row.Segmento }}</td>
+          <td>
+            R$ {{ '{:,.2f}'.format(row.Valor_Venda).replace(',',
+            'X').replace('.', ',').replace('X', '.') }}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>
