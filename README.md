@@ -43,7 +43,7 @@ Análise de um banco de dados real do setor varejista para extração de insight
 OBS.: Esse projeto tem uma versão Web, utilizando Flask e Docker, disponibilizado dentro do próprio repositório.
 
 ### 4. Regressão Linear para Predição do Valor de Aluguel de Imóveis com Statsmodels
-[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/Analise%20-%20case%20Predi%C3%A7%C3%A3o%20de%20Aluguel%20com%20Regress%C3%A3o%20Linear)
+[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/tree/main/4.%20Predi%C3%A7%C3%A3o%20com%20Regress%C3%A3o%20Linear)
 
 Desenvolvimento de um sistema para monitoramento e análise do lucro obtido em negociações financeiras, com cálculos de lucro final formatado e detalhado em relatório automatizado.
 - Tecnologias: Python, Jupyter Notebook
@@ -52,7 +52,7 @@ Desenvolvimento de um sistema para monitoramento e análise do lucro obtido em n
     - Automação de relatórios para visualização de saldo inicial e resultados financeiros.
 
 ### 5. Predição Salarial com Machine Learning Baseada em Horas de Estudo
-[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/Analise%20-%20case%20Predi%C3%A7%C3%A3o%20de%20Sal%C3%A1rio%20com%20Machine%20Learning)
+[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/tree/main/5.%20Predi%C3%A7%C3%A3o%20com%20Machine%20Learning)
 
 Projeto de Machine Learning utilizando Python e Scikit-Learn para prever salário com base nas horas de estudo mensais. O modelo, treinado com dados históricos, é avaliado pelo coeficiente **R&sup2;**.
 - Tecnologias: Python, Scikit-Learn, NumPy, Pandas, Matplotlib, Seaborn
@@ -63,14 +63,14 @@ Projeto de Machine Learning utilizando Python e Scikit-Learn para prever salári
     - Previsões salariais a partir de novos valores de horas de estudo
 
 ### 6. Séries Temporais para Previsão de Vendas
-[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/Analise%20-%20case%20Predi%C3%A7%C3%A3o%20de%20Vendas%20com%20Suaviza%C3%A7%C3%A3o%20Exponencial)
+[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/tree/main/6.%20Predi%C3%A7%C3%A3o%20de%20Vendas%20com%20Suaviza%C3%A7%C3%A3o%20Exponencial)
 
 Este projeto aborda a análise e a previsão de vendas usando séries temporais. A partir dos dados históricos de vendas de 2023, ele visa prever o total de vendas para janeiro de 2024, utilizando técnicas de suavização exponencial com a biblioteca Statsmodels.
 - Tecnologias: Python, Numpy, Pandas, Matplotlib, Seaborn, Statsmodels
 - Funcionalidades: Importação de dados, visualização gráfica, suavização exponencial simples, previsão de vendas
 
 ### 7. Sistema de Previsão de Score de Crédito para Clientes Bancários
-[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/Analise%20-%20case%20Previs%C3%A3o%20de%20Cr%C3%A9dito)
+[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/tree/main/7.%20Previs%C3%A3o%20de%20Cr%C3%A9dito)
 
 Análise de dados para previsão do score de crédito de clientes de um banco, com modelo de machine learning e insights sobre as características mais relevantes para definir o score.
 - Tecnologias: Python, Pandas, Scikit-learn, JupyterNotebook
