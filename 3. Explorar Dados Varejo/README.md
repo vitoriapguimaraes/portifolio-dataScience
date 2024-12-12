@@ -1,14 +1,14 @@
 # Análise Exploratória de Dados com Python Aplicada ao Varejo
 Este projeto realiza uma análise exploratória de dados no setor de varejo, utilizando um dataset com informações de vendas. O objetivo é gerar insights relevantes para a tomada de decisão, aplicando técnicas de manipulação de dados e visualização. A análise permite identificar padrões de comportamento de compra, impactos de descontos e outros fatores que influenciam as vendas.
 
-Este projeto também está sendo adaptado para visualização na web, com o desenvolvimento em andamento. A versão em processo, utilizando Docker, pode ser encontrada e acessada na pasta <code>WebDockerVersion</code> 
+### Este projeto também está sendo adaptado para visualização na web, com o desenvolvimento em andamento. A versão em processo, utilizando Docker, pode ser encontrada e acessada na pasta [![WebDockerVersion](https://img.shields.io/badge/WebDockerVersion-%F0%9F%93%83-blue?style=flat-square)](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/tree/main/3.%20Explorar%20Dados%20Varejo/WebDockerVersion)).
 
->>> (colocar link? nesse modelo [![Documentos](https://img.shields.io/badge/DOCUMENTOS-%F0%9F%93%83-blue?style=flat-square)](https://github.com/vitoriapguimaraes/vitoriapguimaraes/tree/main/DOCUMENTOS)). <<<
+<br>
 
 ## Demonstração/Visualização
 A análise inclui gráficos e visualizações detalhadas que mostram tendências de vendas, a relação entre descontos e volume de compras, entre outros insights. Além disso, são feitas simulações com diferentes cenários de preços e descontos para prever impactos nas vendas.
 
-![Tela do sistema](link)
+![Tela do sistema](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/blob/main/3.%20Explorar%20Dados%20Varejo/AnaliseExploratoria-Demonstacao.gif)
 
 ## Principais Tecnologias Utilizadas
 - Python: Linguagem de programação principal
@@ -26,9 +26,8 @@ A análise inclui gráficos e visualizações detalhadas que mostram tendências
 ## Como Executar
 - Certifique-se de ter Python instalado (>= 3.7).
 - Instale as dependências necessárias executando:
-      ```
+
       pip install pandas numpy matplotlib seaborn datetime
-      ```
 
 ### Etapas:
 1. Execute o script com:
