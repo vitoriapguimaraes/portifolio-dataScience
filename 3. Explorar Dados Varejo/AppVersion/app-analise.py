@@ -12,7 +12,7 @@ import seaborn as sns
 import datetime as dt
 
 ### Carregando os dados com pandas em Linguagem Python ###
-df = pd.read_csv("3. Explorar Dados Varejo\dataset.csv")
+df = pd.read_csv("3. Explorar Dados Varejo\AppVersion\dataset.csv")
 
 print(f"\nShape dos dados é {df.shape}")
 print("\nPrimeiras linhas dos dados:")
@@ -20,7 +20,7 @@ print(df.head())
 print("\nÚltimas linhas dos dados:")
 print(df.tail())
 
-caminho = (f'3. Explorar Dados Varejo\images')
+caminho = (f'3. Explorar Dados Varejo\AppVersion\images')
 
 ### Análise exploratória ###
 
