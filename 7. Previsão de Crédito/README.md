@@ -4,7 +4,7 @@ Este projeto visa a previsão do score de crédito de clientes bancários, class
 ## Demonstração/Visualização
 O notebook inclui visualizações gráficas da distribuição de scores, análise de variáveis importantes e comparação de desempenho entre os modelos de previsão.
 
-![Tela do sistema](link)
+![Tela do sistema](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/blob/main/7.%20Previs%C3%A3o%20de%20Cr%C3%A9dito/PrevisaoCredito-Demonstracao.gif)
 
 ## Principais Tecnologias Utilizadas
 - Python: Linguagem de programação principal
