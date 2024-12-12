@@ -3,7 +3,8 @@ Este projeto explora uma base de dados com mais de 800 mil registros para identi
 
 ## Demonstração/Visualização
 O projeto gera gráficos interativos que mostram insights como tipos de contratos com maior taxa de cancelamento, relações com atrasos de pagamento e perfil demográfico dos clientes.
-![Tela do sistema](link)
+
+![Tela do sistema](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/blob/main/2.%20Cancelamento%20de%20Clientes/Cancelamento-Demonstracao.gif)
 
 ## Principais Tecnologias Utilizadas
 - Linguagem: Python
