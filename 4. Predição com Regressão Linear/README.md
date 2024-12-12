@@ -4,7 +4,7 @@ Este projeto aplica técnicas de Regressão Linear Simples para investigar a rel
 ## Demonstração/Visualização
 Os resultados são apresentados por meio de gráficos que incluem distribuições dos dados, análise de correlação e a linha de regressão ajustada sobre os dados reais, permitindo a visualização do desempenho do modelo.
 
-![Tela do sistema](link)
+![Tela do sistema](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/blob/main/4.%20Predi%C3%A7%C3%A3o%20com%20Regress%C3%A3o%20Linear/PredicaoRegressaoLinear-Demonstracao.gif)
 
 ## Principais Tecnologias Utilizadas
 - Python: Linguagem de programação principal
@@ -42,7 +42,7 @@ Os resultados são apresentados por meio de gráficos que incluem distribuiçõe
 - O coeficiente de determinação (R²) indica que a variável <code>area_m2</code> explica parte da variabilidade do <code>valor_aluguel</code>, mas outros fatores provavelmente influenciam significativamente o valor do aluguel.
 - Sugere-se considerar variáveis adicionais (ex.: localização, número de quartos) para aumentar a precisão do modelo.
 
-Próximos Passos/Melhorias
+## Próximos Passos/Melhorias
 - Incluir novas variáveis no modelo para capturar mais fatores determinantes do valor do aluguel.
 - Implementar Regressão Linear Múltipla.
 - Testar modelos de machine learning para comparação de desempenho.
