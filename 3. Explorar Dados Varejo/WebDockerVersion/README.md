@@ -78,3 +78,10 @@ A aplicação apresenta os resultados de forma interativa por meio de uma interf
 - Otimizar o código para processar datasets maiores de forma mais eficiente.
 - Expandir as perguntas de negócios para cobrir outros aspectos, como análise de clientes e previsões de vendas.
 - Adicionar testes automatizados para garantir a estabilidade do código.
+
+<br>
+<hr> 
+
+### Currículos e Documentos
+Acesse os arquivos disponíveis na pasta 
+[![Documentos](https://img.shields.io/badge/DOCUMENTOS-%F0%9F%93%83-blue?style=flat-square)](https://github.com/vitoriapguimaraes/vitoriapguimaraes/tree/main/DOCUMENTOS) para mais informações sobre minhas qualificações e certificações.
