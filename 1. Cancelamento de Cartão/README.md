@@ -4,7 +4,7 @@ Este projeto analisa uma base de dados de clientes para identificar os principai
 ## Demonstração/Visualização
 Os resultados incluem histogramas salvos em PDF, mostrando a relação entre variáveis como renda, limite de crédito e a categoria do cliente (ativo ou cancelado). Um PDF consolidado reúne todos os gráficos para facilitar a análise. Aqui estão alguns deles.
 
-![Tela do sistema](link)
+![Tela do sistema](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/blob/main/1.%20Cancelamento%20de%20Cart%C3%A3o/AnaliseCancelamentoCartao-Demonstracao.png)
 
 ## Principais Tecnologias Utilizadas
 - Python: Linguagem de programação principal utilizada no projeto.
@@ -14,7 +14,8 @@ Os resultados incluem histogramas salvos em PDF, mostrando a relação entre var
 
 ## Estrutura do Projeto
 ```
-├── app.py            # Script principal contendo a lógica para importar, tratar, e analisar os dados, além de gerar os gráficos e o PDF consolidado.
+├── app.py            # Script principal contendo a lógica para importar, tratar, e analisar os dados, além de gerar
+|                       os gráficos e o PDF consolidado.
 ├── data-bank.csv     # Base de dados dos clientes utilizada na análise.
 └── HISTOGRAM/        # Pasta gerada automaticamente para armazenar os histogramas individuais e o PDF final consolidado.
 ```
