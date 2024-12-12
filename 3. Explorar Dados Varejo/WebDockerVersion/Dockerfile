@@ -11,5 +11,5 @@ RUN pip install -r requirements.txt
 COPY app/ /app/
 
 # Expor a porta e iniciar a aplicação
-EXPOSE 8080
-CMD ["python", "analysis_with_flask.py"]
+EXPOSE 5000
+CMD ["python", "app.py"]
