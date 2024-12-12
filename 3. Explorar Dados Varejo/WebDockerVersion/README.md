@@ -1,4 +1,4 @@
-**Análise Exploratória de Dados com Python Aplicada ao Varejo, com Flask**
+# Análise Exploratória de Dados com Python Aplicada ao Varejo, com Flask
 
 Este projeto tem como objetivo analisar dados do setor de varejo, extraindo insights valiosos e respondendo a perguntas de negócios. A análise foi disponibilizada via web utilizando Flask para a interface e Docker para garantir portabilidade e compatibilidade entre sistemas.
 
@@ -38,39 +38,36 @@ A aplicação apresenta os resultados de forma interativa por meio de uma interf
     ```
 
 3. Inicie a aplicação Flask:
-        ```
-        python app.py
-        ```
-
-    A aplicação estará disponível em: http://localhost:5000
+   ```
+   python app.py
+   ```
 
 4. Utilizando Docker:
 - Construa a imagem Docker:
-        ```
-        docker build -t eda-retail-app .
-        ```
+  ```
+  docker build -t eda-retail-app .
+  ```
 - Inicie o container:
-        ```
-        docker run -p 5000:5000 eda-retail-app
-        ```
-
+  ```
+  docker run -p 5000:5000 eda-retail-app
+  ```
     Acesse em: http://localhost:5000
 
 ## Funcionalidades
 - Respostas a perguntas de negócios por meio de visualizações:
-        - Pergunta 1: Cidade com maior volume de vendas na categoria "Office Supplies".
-        - Pergunta 2: Distribuição total das vendas por data do pedido.
-        - Pergunta 3: Estados com maior volume de vendas.
-        - Pergunta 4: Top 10 cidades com maior total de vendas.
-        - Pergunta 5: Segmentos com maior volume de vendas (gráfico de pizza).
+    - Pergunta 1: Cidade com maior volume de vendas na categoria "Office Supplies".
+    - Pergunta 2: Distribuição total das vendas por data do pedido.
+    - Pergunta 3: Estados com maior volume de vendas.
+    - Pergunta 4: Top 10 cidades com maior total de vendas.
+    - Pergunta 5: Segmentos com maior volume de vendas (gráfico de pizza).
 - Interface web para exploração interativa.
 - Geração dinâmica de gráficos e tabelas.
 
 ## Resultados e Conclusões
 - Insights principais:
-        - Identificação de "Office Supplies" como um segmento altamente relevante em cidades específicas.
-        - Gráficos de linha e barras mostram padrões claros de vendas ao longo do tempo e por localização.
-        - Segmentos mais lucrativos apresentados de forma clara e acessível.
+    - Identificação de "Office Supplies" como um segmento altamente relevante em cidades específicas.
+    - Gráficos de linha e barras mostram padrões claros de vendas ao longo do tempo e por localização.
+    - Segmentos mais lucrativos apresentados de forma clara e acessível.
 - Impacto: Este projeto fornece uma base visual e analítica para tomada de decisão no setor de varejo.
 
 ## Próximos Passos/Melhorias
