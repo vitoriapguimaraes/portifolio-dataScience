@@ -4,7 +4,7 @@ Este projeto utiliza técnicas de Machine Learning para prever o salário mensal
 ## Demonstração/Visualização
 Os resultados incluem gráficos de dispersão que mostram a relação entre as horas de estudo e o salário, assim como a reta de regressão ajustada, permitindo interpretar a precisão do modelo.
 
-![Tela do sistema](link)
+![Tela do sistema](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/blob/main/5.%20Predi%C3%A7%C3%A3o%20com%20Machine%20Learning/PredicaoMachineLearning-Demonstracao.gif)
 
 ## Principais Tecnologias Utilizadas
 - Python: Linguagem de programação principal
