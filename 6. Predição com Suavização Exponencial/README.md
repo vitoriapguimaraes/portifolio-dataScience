@@ -4,7 +4,7 @@ Este projeto visa a análise e previsão de vendas futuras utilizando técnicas 
 ## Demonstração/Visualização
 Gráficos interativos de séries temporais e previsão de vendas estão incluídos no notebook, destacando a tendência e a projeção para janeiro de 2024.
 
-![Tela do sistema](link)
+![Tela do sistema](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/blob/main/6.%20Predi%C3%A7%C3%A3o%20com%20Suaviza%C3%A7%C3%A3o%20Exponencial/PredicaoSuavizacaoExponencial-Demonstracao.gif)
 
 ## Principais Tecnologias Utilizadas
 - Python: Linguagem de programação principal
