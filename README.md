@@ -11,7 +11,7 @@ Este repositório reúne projetos voltados à análise de dados, desenvolvidos e
 <strong>Abaixo, está a lista de cada projeto com seu respectivo resumo. Sinta-se à vontade para explorar mais sobre demonstrações, resultados e outros detalhes!</strong>
 
 ### 1. Motivo de Cancelamento do Cartão
-[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/tree/main/Analise%20-%20case%20Cancelamento%20de%20Cart%C3%A3o)
+[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/tree/main/1.%20Cancelamento%20de%20Cart%C3%A3o)
 
 Projeto de análise de dados que visa identificar padrões de comportamento entre clientes que cancelaram seus cartões. Com gráficos e estatísticas, ele busca entender variáveis que influenciam o cancelamento.
 
@@ -22,7 +22,7 @@ Projeto de análise de dados que visa identificar padrões de comportamento entr
     - Exportação de histogramas em arquivos PDF e agrupamento dos gráficos em um único documento.
 
 ### 2. Redução de Cancelamentos de Clientes em Serviço de Assinatura
-[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/tree/main/Analise%20-%20case%20Cancelamento%20de%20Clientes)
+[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/tree/main/2.%20Cancelamento%20de%20Clientes)
 
 Análise de dados para identificar fatores que levam ao cancelamento de clientes e definir ações de retenção, com base em um conjunto de dados de uma empresa de assinaturas.
 - Tecnologias: Python, Pandas, Plotly, JupyterNotebook
@@ -32,13 +32,15 @@ Análise de dados para identificar fatores que levam ao cancelamento de clientes
     - Geração de insights para estratégias de retenção.
 
 ### 3. Análise Exploratória de Dados com Python Aplicada ao Varejo
-[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/Analise%20-%20case%20Explorar%20Dados%20Varejo)
+[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/tree/main/3.%20Explorar%20Dados%20Varejo)
 
 Análise de um banco de dados real do setor varejista para extração de insights comerciais e criação de gráficos informativos.
 - Tecnologias: Python, Pandas, Matplotlib
 - Funcionalidades:
     - Análise exploratória e limpeza de dados.
     - Criação de visualizações informativas para identificação de padrões e insights.
+
+OBS.: Esse projeto tem uma versão Web, utilizando Flask e Docker, disponibilizado dentro do próprio repositório.
 
 ### 4. Regressão Linear para Predição do Valor de Aluguel de Imóveis com Statsmodels
 [![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-data_science/tree/main/Analise%20-%20case%20Predi%C3%A7%C3%A3o%20de%20Aluguel%20com%20Regress%C3%A3o%20Linear)
