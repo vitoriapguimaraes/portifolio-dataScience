@@ -1,7 +1,7 @@
 # Análise Exploratória de Dados com Python Aplicada ao Varejo
 Este projeto realiza uma análise exploratória de dados no setor de varejo, utilizando um dataset com informações de vendas. O objetivo é gerar insights relevantes para a tomada de decisão, aplicando técnicas de manipulação de dados e visualização. A análise permite identificar padrões de comportamento de compra, impactos de descontos e outros fatores que influenciam as vendas.
 
-### Este projeto também está sendo adaptado para visualização na web, com o desenvolvimento em andamento. A versão em processo, utilizando Docker, pode ser encontrada e acessada na pasta [![WebDockerVersion](https://img.shields.io/badge/WebDockerVersion-%F0%9F%93%83-blue?style=flat-square)](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/tree/main/3.%20Explorar%20Dados%20Varejo/AppVersion/WebDockerVersion).
+### Este projeto também está sendo adaptado para visualização na web, com o desenvolvimento em andamento. A versão em processo, utilizando Docker, pode ser encontrada e acessada na pasta [![WebDockerVersion](https://img.shields.io/badge/WebDockerVersion-%F0%9F%93%83-blue?style=flat-square)](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/tree/main/3.%20Explorar%20Dados%20Varejo/WebDockerVersion).
 
 <br>
 
