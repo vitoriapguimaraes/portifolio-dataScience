@@ -2,7 +2,7 @@
 
 Este projeto envolveu o estudo de uma base de dados do setor de varejo, com o objetivo de extrair insights e gerar gráficos informativos. Para facilitar o acesso aos resultados e gráficos, a análise foi disponibilizada via web utilizando Flask e Docker para compatibilidade e portabilidade.
 
-![Tela do sistema](link)
+![Tela do sistema](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/blob/main/3.%20Explorar%20Dados%20Varejo/WebDockerVersion/AnaliseWeb-Demonstacao.gif)
 
 - Passos Realizados:
 
