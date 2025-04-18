@@ -34,7 +34,7 @@ Esta tabela oferece uma visão rápida dos projetos em meu portfólio, destacand
 | [Redução de Cancelamentos em Serviço de Assinatura](#reducao-de-cancelamentos-em-servico-de-assinatura)   | Análise para entender cancelamentos e gerar insights para retenção.                       | Python, Pandas, Plotly, Jupyter Notebook                 | 🛠️ |
 | [Análise de Dados no Varejo](#analise-exploratoria-de-dados-no-varejo)                                    | Exploração de dados reais do varejo com gráficos e versão web com Flask.                  | Python, Pandas, Matplotlib, Flask, Docker                | 🛠️ |
 | [Predição de Aluguel com Regressão Linear](#predicao-de-aluguel-com-regressao-linear)                     | Modelo de regressão linear para estimar valores de aluguel.                               | Python, Jupyter Notebook, Statsmodels                    | 🛠️ |
-| [Predição Salarial com ML](#predicao-salarial-com-ML)                                                     | Modelo que estima salário com base nas horas de estudo.                                   | Python, Scikit-Learn, NumPy, Pandas, Matplotlib, Seaborn | 🛠️ |
+| [Predição Salarial com Machine Learing](#predicao-salarial-com-Machine-Learning)                          | Modelo que estima salário com base nas horas de estudo.                                   | Python, Scikit-Learn, NumPy, Pandas, Matplotlib, Seaborn | 🛠️ |
 | [Previsão de Vendas com Séries Temporais](#previsao-de-vendas-com-series-temporais)                       | Previsão de vendas usando suavização exponencial.                                         | Python, Statsmodels, Pandas, Matplotlib, Seaborn         | 🛠️ |
 | [Score de Crédito com ML](#sistema-de-previsao-de-score-para-clientes-bancarios)                          | Previsão de score de crédito com Random Forest e KNN.                                     | Python, Scikit-Learn, Pandas, Jupyter Notebook           | 🛠️ |
 
@@ -59,7 +59,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 
 [![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](LINK)
 
-### Reducao de Cancelamentos de Clientes em Servico de Assinatura
+### Reducao de Cancelamentos em Servico de Assinatura
 
 > Análise de dados para identificar fatores que levam ao cancelamento de clientes e definir ações de retenção, com base em um conjunto de dados de uma empresa de assinaturas.
 > 
@@ -69,7 +69,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 
 [![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](LINK)
 
-### Analise Exploratoria de Dados Aplicada ao Varejo
+### Analise Exploratoria de Dados no Varejo
 
 > Análise de um banco de dados real do setor varejista para extração de insights comerciais e criação de gráficos informativos. OBS.: Esse projeto tem uma versão Web, utilizando Flask e Docker, disponibilizado dentro do próprio repositório.
 > 
@@ -79,7 +79,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 
 [![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](LINK)
 
-### Predição de Aluguel com Regressao Linear
+### Predicao de Aluguel com Regressao Linear
 
 > Desenvolvimento de um sistema para monitoramento e análise do lucro obtido em negociações financeiras, com cálculos de lucro final formatado e detalhado em relatório automatizado.
 > 
