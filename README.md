@@ -1,90 +1,124 @@
-# Portfólio de Projetos: Data Science
+# Meu Portfólio de Projetos Data Science
+> Minha stack em Data Science é composta por um conjunto robusto de ferramentas que cobrem todas as etapas do ciclo de vida dos dados — desde a coleta e manipulação até a modelagem e visualização, incluindo soluções voltadas para análise de negócios e business intelligence.
 
-🛠️ Em manutenção
+Olá! 👋 Seja bem-vindo(a) ao meu portfólio de projetos em Data Science. Explore meus projetos práticos no repositório e veja como utilizo essa stack para resolver problemas reais de dados — com foco em análise exploratória, modelagem preditiva e visualizações impactantes.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-004D40?style=for-the-badge&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-0A0A0A?style=for-the-badge&logo=scikit-learn)
-![R]
+> 📊 **Análise, Manipulação e Visualização de Dados**  
+> > [![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+> > [![Pandas](https://img.shields.io/badge/Pandas-000000?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+> > [![NumPy](https://img.shields.io/badge/NumPy-000000?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
+> > [![Plotly](https://img.shields.io/badge/Plotly-000000?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com/)
+> > [![Seaborn](https://img.shields.io/badge/Seaborn-000000?style=for-the-badge&logo=python&logoColor=white)](https://seaborn.pydata.org/)
+> > [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-000000?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+> 
+> 🤖 **Machine Learning e Ciência de Dados**  
+> > [![Machine Learning](https://img.shields.io/badge/Machine%20Learning-000000?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+> > [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-000000?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/)
+> > [![R](https://img.shields.io/badge/R-000000?style=for-the-badge&logo=r&logoColor=white)](https://www.r-project.org/)
+> 
+> 📈 **Business Intelligence**  
+> > [![Power BI](https://img.shields.io/badge/Power%20BI-000000?style=for-the-badge&logo=powerbi&logoColor=white)](https://powerbi.microsoft.com/)
+> > [![DAX](https://img.shields.io/badge/DAX-000000?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/en-us/dax/)
+> > [![Power Query](https://img.shields.io/badge/Power%20Query-000000?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/en-us/power-query/)
+> 
+> 🗄️ **Banco de Dados e Linguagens de Consulta**  
+> > [![SQL](https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
 
-Este repositório reúne projetos voltados à análise de dados, desenvolvidos em Python. Cada projeto aplica técnicas de estatística, machine learning e visualização para extrair insights e resolver problemas práticos, abrangendo desde análises exploratórias até modelos preditivos.
+## Resumo dos Projetos
 
-<strong>Abaixo, está a lista de cada projeto com seu respectivo resumo. Sinta-se à vontade para explorar mais sobre demonstrações, resultados e outros detalhes!</strong>
+Esta tabela oferece uma visão rápida dos projetos em meu portfólio, destacando seu status, as principais tecnologias utilizadas e uma breve descrição de cada um.
+
+| Projeto                                                                                                   | Descrição                                                                                 | Tecnologias Utilizadas                                   | Status |
+|-----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------------------|--------|
+| [Motivo de Cancelamento do Cartão](#motivo-de-cancelamento-do-cartao)                                     | Análise de padrões de clientes que cancelaram cartões, com exportação de gráficos em PDF. | Python, Pandas, Plotly, PyPDF2                           | 🛠️ |
+| [Redução de Cancelamentos em Serviço de Assinatura](#reducao-de-cancelamentos-em-servico-de-assinatura)   | Análise para entender cancelamentos e gerar insights para retenção.                       | Python, Pandas, Plotly, Jupyter Notebook                 | 🛠️ |
+| [Análise de Dados no Varejo](#analise-de-dados-no-varejo)                                                 | Exploração de dados reais do varejo com gráficos e versão web com Flask.                  | Python, Pandas, Matplotlib, Flask, Docker                | 🛠️ |
+| [Predição de Aluguel com Regressão Linear](#predicao-de-aluguel-com-regressao-linear)                     | Modelo de regressão linear para estimar valores de aluguel.                               | Python, Jupyter Notebook, Statsmodels                    | 🛠️ |
+| [Predição Salarial com ML](#predicao-salarial-com-ML)                                                     | Modelo que estima salário com base nas horas de estudo.                                   | Python, Scikit-Learn, NumPy, Pandas, Matplotlib, Seaborn | 🛠️ |
+| [Previsão de Vendas com Séries Temporais](#previsao-de-vendas-com-series-temporais)                       | Previsão de vendas usando suavização exponencial.                                         | Python, Statsmodels, Pandas, Matplotlib, Seaborn         | 🛠️ |
+| [Score de Crédito com ML](#score-de-credito-com-ML)                                                       | Previsão de score de crédito com Random Forest e KNN.                                     | Python, Scikit-Learn, Pandas, Jupyter Notebook           | 🛠️ |
+
+> 🧭 Legenda dos Status: <br>
+>> ✅ Concluído <br>
+>> 🛠️ Em manutenção <br>
+>> 🚧 Em desenvolvimento
+
+## Detalhes dos Projetos
+
+Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluindo demonstrações visuais e links para os repositórios e sites.
 
 ## Projetos em Python
 
-### 1. Motivo de Cancelamento do Cartão
-[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/tree/main/1.%20Cancelamento%20de%20Cart%C3%A3o)
+### Motivo de Cancelamento do Cartão
 
-Projeto de análise de dados que visa identificar padrões de comportamento entre clientes que cancelaram seus cartões. Com gráficos e estatísticas, ele busca entender variáveis que influenciam o cancelamento.
+> Projeto de análise de dados que visa identificar padrões de comportamento entre clientes que cancelaram seus cartões. Com gráficos e estatísticas, ele busca entender variáveis que influenciam o cancelamento.
+> 
+> **Tecnologias:** Python, Pandas, Plotly, PyPDF2
+> 
+> 🛠️ Em manutenção
 
-- Tecnologias: Python, Pandas, Plotly, PyPDF2
-- Funcionalidades:
-    - Importação e limpeza de dados de clientes.
-    - Análise de dados exploratória e visualização de tendências com histogramas.
-    - Exportação de histogramas em arquivos PDF e agrupamento dos gráficos em um único documento.
+[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](LINK)
 
-### 2. Redução de Cancelamentos de Clientes em Serviço de Assinatura
-[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/tree/main/2.%20Cancelamento%20de%20Clientes)
+### Reducao de Cancelamentos de Clientes em Servico de Assinatura
 
-Análise de dados para identificar fatores que levam ao cancelamento de clientes e definir ações de retenção, com base em um conjunto de dados de uma empresa de assinaturas.
-- Tecnologias: Python, Pandas, Plotly, JupyterNotebook
-- Funcionalidades:
-    - Identificação de fatores associados ao cancelamento.
-    - Análise de padrões de comportamento dos clientes.
-    - Geração de insights para estratégias de retenção.
+> Análise de dados para identificar fatores que levam ao cancelamento de clientes e definir ações de retenção, com base em um conjunto de dados de uma empresa de assinaturas.
+> 
+> **Tecnologias:** Python, Pandas, Plotly, JupyterNotebook
+> 
+> 🛠️ Em manutenção
 
-### 3. Análise Exploratória de Dados com Python Aplicada ao Varejo
-[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/tree/main/3.%20Explorar%20Dados%20Varejo)
+[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](LINK)
 
-Análise de um banco de dados real do setor varejista para extração de insights comerciais e criação de gráficos informativos.
-- Tecnologias: Python, Pandas, Matplotlib
-- Funcionalidades:
-    - Análise exploratória e limpeza de dados.
-    - Criação de visualizações informativas para identificação de padrões e insights.
+### Analise Exploratoria de Dados com Python Aplicada ao Varejo
 
-OBS.: Esse projeto tem uma versão Web, utilizando Flask e Docker, disponibilizado dentro do próprio repositório.
+> Análise de um banco de dados real do setor varejista para extração de insights comerciais e criação de gráficos informativos. OBS.: Esse projeto tem uma versão Web, utilizando Flask e Docker, disponibilizado dentro do próprio repositório.
+> 
+> **Tecnologias:** Python, Pandas, Matplotlib
+> 
+> 🛠️ Em manutenção
 
-### 4. Regressão Linear para Predição do Valor de Aluguel de Imóveis com Statsmodels
-[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/tree/main/4.%20Predi%C3%A7%C3%A3o%20com%20Regress%C3%A3o%20Linear)
+[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](LINK)
 
-Desenvolvimento de um sistema para monitoramento e análise do lucro obtido em negociações financeiras, com cálculos de lucro final formatado e detalhado em relatório automatizado.
-- Tecnologias: Python, Jupyter Notebook
-- Funcionalidades:
-    - Cálculo e formatação do lucro final com precisão de duas casas decimais.
-    - Automação de relatórios para visualização de saldo inicial e resultados financeiros.
+### Regressao Linear para Predição do Valor de Aluguel de Imóveis com Statsmodels
 
-### 5. Predição Salarial com Machine Learning Baseada em Horas de Estudo
-[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/tree/main/5.%20Predi%C3%A7%C3%A3o%20com%20Machine%20Learning)
+> Desenvolvimento de um sistema para monitoramento e análise do lucro obtido em negociações financeiras, com cálculos de lucro final formatado e detalhado em relatório automatizado.
+> 
+> **Tecnologias:** Python, Pandas, Matplotlib
+> 
+> 🛠️ Em manutenção
 
-Projeto de Machine Learning utilizando Python e Scikit-Learn para prever salário com base nas horas de estudo mensais. O modelo, treinado com dados históricos, é avaliado pelo coeficiente **R&sup2;**.
-- Tecnologias: Python, Scikit-Learn, NumPy, Pandas, Matplotlib, Seaborn
-- Funcionalidades:
-    - Análise exploratória de dados e visualização
-    - Modelagem e treinamento com Regressão Linear Simples
-    - Avaliação de desempenho do modelo
-    - Previsões salariais a partir de novos valores de horas de estudo
+[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](LINK)
 
-### 6. Séries Temporais para Previsão de Vendas
-[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/tree/main/6.%20Predi%C3%A7%C3%A3o%20com%20Suaviza%C3%A7%C3%A3o%20Exponencial)
+### Predicao Salarial com Machine Learning Baseada em Horas de Estudo
 
-Este projeto aborda a análise e a previsão de vendas usando séries temporais. A partir dos dados históricos de vendas de 2023, ele visa prever o total de vendas para janeiro de 2024, utilizando técnicas de suavização exponencial com a biblioteca Statsmodels.
-- Tecnologias: Python, Numpy, Pandas, Matplotlib, Seaborn, Statsmodels
-- Funcionalidades: Importação de dados, visualização gráfica, suavização exponencial simples, previsão de vendas
+> Projeto de Machine Learning utilizando Python e Scikit-Learn para prever salário com base nas horas de estudo mensais. O modelo, treinado com dados históricos, é avaliado pelo coeficiente **R&sup2;**.
+> 
+> **Tecnologias:** Python, Scikit-Learn, NumPy, Pandas, Matplotlib, Seaborn
+> 
+> 🛠️ Em manutenção
 
-### 7. Sistema de Previsão de Score de Crédito para Clientes Bancários
-[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/tree/main/7.%20Previs%C3%A3o%20de%20Cr%C3%A9dito)
+[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](LINK)
 
-Análise de dados para previsão do score de crédito de clientes de um banco, com modelo de machine learning e insights sobre as características mais relevantes para definir o score.
-- Tecnologias: Python, Pandas, Scikit-learn, JupyterNotebook
-- Funcionalidades:
-    - Previsão de score de crédito (Ruim, Ok, Bom).
-    - Comparação de modelos de Machine Learning (Random Forest e KNN).
-    - Identificação das características mais relevantes para análise de crédito.
+### Series Temporais para Previsao de Vendas
 
+> Este projeto aborda a análise e a previsão de vendas usando séries temporais. A partir dos dados históricos de vendas de 2023, ele visa prever o total de vendas para janeiro de 2024, utilizando técnicas de suavização exponencial com a biblioteca Statsmodels.
+> 
+> **Tecnologias:** Python, Numpy, Pandas, Matplotlib, Seaborn, Statsmodels
+> 
+> 🛠️ Em manutenção
+
+[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](LINK)
+
+### Sistema de Previsao de Score de Credito para Clientes Bancarios
+
+> Análise de dados para previsão do score de crédito de clientes de um banco, com modelo de machine learning e insights sobre as características mais relevantes para definir o score.
+> 
+> **Tecnologias:** Python, Pandas, Scikit-learn, JupyterNotebook
+> 
+> 🛠️ Em manutenção
+> 
+
+[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](LINK)
 
 ## Dashboards PowerBI
 [![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/PowerBI-dataScience_dashboards)
@@ -97,9 +131,6 @@ Análise de dados para previsão do score de crédito de clientes de um banco, c
 ### Destaques
 
 
-<br>
-<hr> 
+---
 
-### Currículos e Documentos
-Acesse os arquivos disponíveis na pasta 
-[![Documentos](https://img.shields.io/badge/DOCUMENTOS-%F0%9F%93%83-blue?style=flat-square)](https://github.com/vitoriapguimaraes/vitoriapguimaraes/tree/main/DOCUMENTOS) para mais informações sobre minhas qualificações e certificações.
+Acesse os arquivos disponíveis na [Pasta Documentos](https://github.com/vitoriapguimaraes/vitoriapguimaraes/tree/main/DOCUMENTOS) para mais informações sobre minhas qualificações e certificações.
