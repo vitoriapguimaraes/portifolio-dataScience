@@ -28,22 +28,24 @@ Olá! 👋 Seja bem-vindo(a) ao meu portfólio de projetos em Data Science. Expl
 
 Esta tabela oferece uma visão rápida dos projetos em meu portfólio, destacando seu status, as principais tecnologias utilizadas e uma breve descrição de cada um.
 
-| Projeto                                                                                                   | Descrição                                                                                 | Tecnologias Utilizadas                                   | Status |
-|-----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------------------|--------|
-| [Motivo de Cancelamento do Cartão](#motivo-de-cancelamento-do-cartao)                                     | Análise de padrões de clientes que cancelaram cartões, com exportação de gráficos em PDF. | Python, Pandas, Plotly, PyPDF2                           | 🛠️ |
-| [Redução de Cancelamentos em Serviço de Assinatura](#reducao-de-cancelamentos-em-servico-de-assinatura)   | Análise para entender cancelamentos e gerar insights para retenção.                       | Python, Pandas, Plotly, Jupyter Notebook                 | 🛠️ |
-| [Análise de Dados no Varejo](#analise-exploratoria-de-dados-no-varejo)                                    | Exploração de dados reais do varejo com gráficos e versão web com Flask.                  | Python, Pandas, Matplotlib, Flask, Docker                | 🛠️ |
-| [Predição de Aluguel com Regressão Linear](#predicao-de-aluguel-com-regressao-linear)                     | Modelo de regressão linear para estimar valores de aluguel.                               | Python, Jupyter Notebook, Statsmodels                    | 🛠️ |
-| [Predição Salarial com Machine Learing](#predicao-salarial-com-Machine-Learning)                          | Modelo que estima salário com base nas horas de estudo.                                   | Python, Scikit-Learn, NumPy, Pandas, Matplotlib, Seaborn | 🛠️ |
-| [Previsão de Vendas com Séries Temporais](#previsao-de-vendas-com-series-temporais)                       | Previsão de vendas usando suavização exponencial.                                         | Python, Statsmodels, Pandas, Matplotlib, Seaborn         | 🛠️ |
-| [Score de Crédito com ML](#sistema-de-previsao-de-score-para-clientes-bancarios)                          | Previsão de score de crédito com Random Forest e KNN.                                     | Python, Scikit-Learn, Pandas, Jupyter Notebook           | 🛠️ |
+| Projeto                                                                                                   | Descrição                                                                                    | Tecnologias Utilizadas                                   | Status |
+|-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|----------------------------------------------------------|--------|
+| [Motivo de Cancelamento do Cartão](#motivo-de-cancelamento-do-cartao)                                     | Análise de padrões de clientes que cancelaram cartões, com exportação de gráficos em PDF.    | Python, Pandas, Plotly, PyPDF2                           | 🛠️ |
+| [Redução de Cancelamentos em Serviço de Assinatura](#reducao-de-cancelamentos-em-servico-de-assinatura)   | Análise para entender cancelamentos e gerar insights para retenção.                          | Python, Pandas, Plotly, Jupyter Notebook                 | 🛠️ |
+| [Análise de Dados no Varejo](#analise-exploratoria-de-dados-no-varejo)                                    | Exploração de dados reais do varejo com gráficos e versão web com Flask.                     | Python, Pandas, Matplotlib, Flask, Docker                | 🛠️ |
+| [Predição de Aluguel com Regressão Linear](#predicao-de-aluguel-com-regressao-linear)                     | Modelo de regressão linear para estimar valores de aluguel.                                  | Python, Jupyter Notebook, Statsmodels                    | 🛠️ |
+| [Predição Salarial com Machine Learning](#predicao-salarial-com-machine-learning)                          | Modelo que estima salário com base nas horas de estudo.                                      | Python, Scikit-Learn, NumPy, Pandas, Matplotlib, Seaborn | 🛠️ |
+| [Previsão de Vendas com Séries Temporais](#previsao-de-vendas-com-series-temporais)                       | Previsão de vendas usando suavização exponencial.                                            | Python, Statsmodels, Pandas, Matplotlib, Seaborn         | 🛠️ |
+| [Score de Crédito com ML](#sistema-de-previsao-de-score-para-clientes-bancarios)                          | Previsão de score de crédito com Random Forest e KNN.                                        | Python, Scikit-Learn, Pandas, Jupyter Notebook           | 🛠️ |
+| [Dashboards PowerBI](#dashboards-powerbi)                                                                 | Conjunto de dashboards desenvolvidos no Power BI, com foco em estudos e aplicações práticas. | PowerBI, DAX, Power Query, SQL, Machine Learning         | 🛠️ |
+| [Estudos em R](#estudos-em-r)                                                                             | Conjunto de scripts em R para introdução e execução de análises de dados.                    | PowerBI, DAX, Power Query, SQL, Machine Learning         | 🛠️ |
 
 > 🧭 Legenda dos Status: <br>
 >> ✅ Concluído <br>
 >> 🛠️ Em manutenção <br>
 >> 🚧 Em desenvolvimento
 
-## Detalhes dos Projetos
+---
 
 Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluindo demonstrações visuais e links para os repositórios e sites.
 
@@ -121,15 +123,35 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 [![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](LINK)
 
 ## Dashboards PowerBI
-[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/PowerBI-dataScience_dashboards)
 
-### Destaques
+> Este repositório contém dashboards desenvolvidos no Power BI, com foco em estudos e aplicações práticas. Além disso, inclui conteúdos sobre análise de dados, machine learning, SQL e R, demonstrando como essas ferramentas podem ser usadas de forma integrada para extrair insights e resolver problemas de negócios.
+> 
+> **Tecnologias:** PowerBI, DAX, Power Query, SQL, Machine Learning
+> 
+> ✅ Concluído
+> 
+> Lista dos projetos desenvolvidos:
+>
+> [![Dashboard Marketing](https://img.shields.io/badge/Dashboard%20Marketing-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dataScience_dashboards/tree/main/Dashboard%20Marketing)<br>
+> [![Dashboard Comercial](https://img.shields.io/badge/Dashboard%20Comercial-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dataScience_dashboards/tree/main/Dashboard%20Comercial)<br>
+> [![Dashboard Vendas](https://img.shields.io/badge/Dashboard%20Vendas-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dataScience_dashboards/tree/main/Dashborad%20Vendas)<br>
+> [![Dashboard Geral](https://img.shields.io/badge/Dashboard%20Geral-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dataScience_dashboards/tree/main/Dashboard%20Geral)<br>
+> [![Dashboard RH](https://img.shields.io/badge/Dashboard%20RH-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dataScience_dashboards/tree/main/Dashboard%20RH)<br>
+> [![Dashboard Segmentação](https://img.shields.io/badge/Dashboard%20Segmentação%20Clientes-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dataScience_dashboards/tree/main/Dashboard%20Segmenta%C3%A7%C3%A3o%20Clientes)<br>
+> [![Dashboard Logística](https://img.shields.io/badge/Dashboard%20Logística-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dataScience_dashboards/tree/main/Dashboard%20Logistica)<br>
+> [![Dashboard Financeiro](https://img.shields.io/badge/Dashboard%20Financeiro-black?style=flat-square)]([link](https://github.com/vitoriapguimaraes/PowerBI-dataScience_dashboards/tree/main/Dashboard%20Financeiro))<br>
+> [![Dashboard Séries Temporais](https://img.shields.io/badge/Dashboard%20Séries%20Temporais-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dataScience_dashboards/tree/main/Dashboard%20Series%20Temporais)<br>
+> [![Dashboard Anomalias](https://img.shields.io/badge/Dashboard%20Anomalias-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dataScience_dashboards/tree/main/Dashboard%20Anomalias)
+
+[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/PowerBI-dataScience_dashboards)
 
 ## Estudos em R
-[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/R-dataScience_studies)
 
-### Destaques
+> Este repositório contém scripts em R para introdução e execução de análises de dados, abordando desde conceitos básicos até análises específicas, como análise de variância e manipulação de datasets.
+> 
+> ✅ Concluído
 
+[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/R-dataScience_studies)
 
 ---
 
