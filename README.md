@@ -32,11 +32,11 @@ Esta tabela oferece uma visão rápida dos projetos em meu portfólio, destacand
 |-----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------------------|--------|
 | [Motivo de Cancelamento do Cartão](#motivo-de-cancelamento-do-cartao)                                     | Análise de padrões de clientes que cancelaram cartões, com exportação de gráficos em PDF. | Python, Pandas, Plotly, PyPDF2                           | 🛠️ |
 | [Redução de Cancelamentos em Serviço de Assinatura](#reducao-de-cancelamentos-em-servico-de-assinatura)   | Análise para entender cancelamentos e gerar insights para retenção.                       | Python, Pandas, Plotly, Jupyter Notebook                 | 🛠️ |
-| [Análise de Dados no Varejo](#analise-de-dados-no-varejo)                                                 | Exploração de dados reais do varejo com gráficos e versão web com Flask.                  | Python, Pandas, Matplotlib, Flask, Docker                | 🛠️ |
+| [Análise de Dados no Varejo](#analise-exploratoria-de-dados-no-varejo)                                    | Exploração de dados reais do varejo com gráficos e versão web com Flask.                  | Python, Pandas, Matplotlib, Flask, Docker                | 🛠️ |
 | [Predição de Aluguel com Regressão Linear](#predicao-de-aluguel-com-regressao-linear)                     | Modelo de regressão linear para estimar valores de aluguel.                               | Python, Jupyter Notebook, Statsmodels                    | 🛠️ |
 | [Predição Salarial com ML](#predicao-salarial-com-ML)                                                     | Modelo que estima salário com base nas horas de estudo.                                   | Python, Scikit-Learn, NumPy, Pandas, Matplotlib, Seaborn | 🛠️ |
 | [Previsão de Vendas com Séries Temporais](#previsao-de-vendas-com-series-temporais)                       | Previsão de vendas usando suavização exponencial.                                         | Python, Statsmodels, Pandas, Matplotlib, Seaborn         | 🛠️ |
-| [Score de Crédito com ML](#score-de-credito-com-ML)                                                       | Previsão de score de crédito com Random Forest e KNN.                                     | Python, Scikit-Learn, Pandas, Jupyter Notebook           | 🛠️ |
+| [Score de Crédito com ML](#sistema-de-previsao-de-score-para-clientes-bancarios)                          | Previsão de score de crédito com Random Forest e KNN.                                     | Python, Scikit-Learn, Pandas, Jupyter Notebook           | 🛠️ |
 
 > 🧭 Legenda dos Status: <br>
 >> ✅ Concluído <br>
@@ -49,7 +49,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 
 ## Projetos em Python
 
-### Motivo de Cancelamento do Cartão
+### Motivo de Cancelamento do Cartao
 
 > Projeto de análise de dados que visa identificar padrões de comportamento entre clientes que cancelaram seus cartões. Com gráficos e estatísticas, ele busca entender variáveis que influenciam o cancelamento.
 > 
@@ -69,7 +69,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 
 [![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](LINK)
 
-### Analise Exploratoria de Dados com Python Aplicada ao Varejo
+### Analise Exploratoria de Dados Aplicada ao Varejo
 
 > Análise de um banco de dados real do setor varejista para extração de insights comerciais e criação de gráficos informativos. OBS.: Esse projeto tem uma versão Web, utilizando Flask e Docker, disponibilizado dentro do próprio repositório.
 > 
@@ -79,7 +79,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 
 [![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](LINK)
 
-### Regressao Linear para Predição do Valor de Aluguel de Imóveis com Statsmodels
+### Predição de Aluguel com Regressao Linear
 
 > Desenvolvimento de um sistema para monitoramento e análise do lucro obtido em negociações financeiras, com cálculos de lucro final formatado e detalhado em relatório automatizado.
 > 
@@ -89,7 +89,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 
 [![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](LINK)
 
-### Predicao Salarial com Machine Learning Baseada em Horas de Estudo
+### Predicao Salarial com Machine Learning
 
 > Projeto de Machine Learning utilizando Python e Scikit-Learn para prever salário com base nas horas de estudo mensais. O modelo, treinado com dados históricos, é avaliado pelo coeficiente **R&sup2;**.
 > 
@@ -99,7 +99,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 
 [![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](LINK)
 
-### Series Temporais para Previsao de Vendas
+### Previsao de Vendas com Series Temporais
 
 > Este projeto aborda a análise e a previsão de vendas usando séries temporais. A partir dos dados históricos de vendas de 2023, ele visa prever o total de vendas para janeiro de 2024, utilizando técnicas de suavização exponencial com a biblioteca Statsmodels.
 > 
@@ -109,7 +109,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 
 [![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](LINK)
 
-### Sistema de Previsao de Score de Credito para Clientes Bancarios
+### Sistema de Previsao de Score para Clientes Bancarios
 
 > Análise de dados para previsão do score de crédito de clientes de um banco, com modelo de machine learning e insights sobre as características mais relevantes para definir o score.
 > 
