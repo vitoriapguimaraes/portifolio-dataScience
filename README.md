@@ -39,8 +39,8 @@ Esta tabela oferece uma visão rápida dos projetos em meu portfólio, destacand
 | [Predição Salarial com Machine Learning](#predicao-salarial-com-machine-learning)                         | Modelo que estima salário com base nas horas de estudo.                                      | Python, Scikit-Learn, NumPy, Pandas, Matplotlib, Seaborn | 🛠️ |
 | [Previsão de Vendas com Séries Temporais](#previsao-de-vendas-com-series-temporais)                       | Previsão de vendas usando suavização exponencial.                                            | Python, Statsmodels, Pandas, Matplotlib, Seaborn         | 🛠️ |
 | [Score de Crédito com ML](#sistema-de-previsao-de-score-para-clientes-bancarios)                          | Previsão de score de crédito com Random Forest e KNN.                                        | Python, Scikit-Learn, Pandas, Jupyter Notebook           | 🛠️ |
-| [Dashboards PowerBI](#dashboards-powerbi)                                                                 | Conjunto de dashboards desenvolvidos no Power BI, com foco em estudos e aplicações práticas. | PowerBI, DAX, Power Query, SQL, Machine Learning         | ✅ |
-| [Estudos em R](#estudos-em-r)                                                                             | Conjunto de scripts em R para introdução e execução de análises de dados.                    | R                                                        | ✅ |
+| [Dashboards PowerBI](#dashboards-powerbi)                                                                 | Conjunto de dashboards desenvolvidos no Power BI, com foco em estudos e aplicações práticas. | PowerBI, DAX, Power Query, SQL, Machine Learning         | 🛠️ |
+| [Estudos em R](#estudos-em-r)                                                                             | Conjunto de scripts em R para introdução e execução de análises de dados.                    | R                                                        | 🛠️ |
 
 > 🧭 Legenda dos Status: <br>
 >> ✅ Concluído <br>
@@ -130,7 +130,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 > 
 > **Tecnologias:** PowerBI, DAX, Power Query, SQL, Machine Learning
 > 
-> ✅ Concluído
+> 🛠️ Em manutenção
 > 
 > Lista dos projetos desenvolvidos:
 >
@@ -151,7 +151,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 
 > Este repositório contém scripts em R para introdução e execução de análises de dados, abordando desde conceitos básicos até análises específicas, como análise de variância e manipulação de datasets.
 > 
-> ✅ Concluído
+> 🛠️ Em manutenção
 
 [![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/R-dataScience_studies)
 
