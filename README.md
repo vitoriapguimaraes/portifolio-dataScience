@@ -1,5 +1,7 @@
 # Portfólio de Projetos: Data Science
 
+🛠️ Em manutenção
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
@@ -84,9 +86,15 @@ Análise de dados para previsão do score de crédito de clientes de um banco, c
     - Identificação das características mais relevantes para análise de crédito.
 
 
+## Dashboards PowerBI
+[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/PowerBI-dataScience_dashboards)
+
+### Destaques
 
 ## Estudos em R
 [![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/R-dataScience_studies)
+
+### Destaques
 
 
 <br>
