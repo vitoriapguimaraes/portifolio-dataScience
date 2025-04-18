@@ -1,14 +1,18 @@
-# Portfólio de Projetos: Python
+# Portfólio de Projetos: Data Science
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/Seaborn-004D40?style=for-the-badge&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-0A0A0A?style=for-the-badge&logo=scikit-learn)
+![R]
 
 Este repositório reúne projetos voltados à análise de dados, desenvolvidos em Python. Cada projeto aplica técnicas de estatística, machine learning e visualização para extrair insights e resolver problemas práticos, abrangendo desde análises exploratórias até modelos preditivos.
 
 <strong>Abaixo, está a lista de cada projeto com seu respectivo resumo. Sinta-se à vontade para explorar mais sobre demonstrações, resultados e outros detalhes!</strong>
+
+## Projetos em Python
 
 ### 1. Motivo de Cancelamento do Cartão
 [![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/portifolio-python-dataScience/tree/main/1.%20Cancelamento%20de%20Cart%C3%A3o)
@@ -78,6 +82,12 @@ Análise de dados para previsão do score de crédito de clientes de um banco, c
     - Previsão de score de crédito (Ruim, Ok, Bom).
     - Comparação de modelos de Machine Learning (Random Forest e KNN).
     - Identificação das características mais relevantes para análise de crédito.
+
+
+
+## Estudos em R
+[![Acesse o Repositório](https://img.shields.io/badge/Acesse%20o%20Reposit%C3%B3rio-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/R-dataScience_studies)
+
 
 <br>
 <hr> 
