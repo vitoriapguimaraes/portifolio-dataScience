@@ -8,8 +8,10 @@ Olá! 👋 Seja bem-vindo(a) ao meu portfólio de projetos em Data Science. Expl
 > > [![Pandas](https://img.shields.io/badge/Pandas-000000?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 > > [![NumPy](https://img.shields.io/badge/NumPy-000000?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
 > > [![Plotly](https://img.shields.io/badge/Plotly-000000?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com/)
+> > [![ggplot2](https://img.shields.io/badge/ggplot2-000000?style=for-the-badge&logo=r&logoColor=white)](https://ggplot2.tidyverse.org/)
 > > [![Seaborn](https://img.shields.io/badge/Seaborn-000000?style=for-the-badge&logo=python&logoColor=white)](https://seaborn.pydata.org/)
 > > [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-000000?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+> > [![R](https://img.shields.io/badge/R-000000?style=for-the-badge&logo=r&logoColor=white)](https://www.r-project.org/)  
 > 
 > 🤖 **Machine Learning e Ciência de Dados**  
 > > [![Machine Learning](https://img.shields.io/badge/Machine%20Learning-000000?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
@@ -34,11 +36,11 @@ Esta tabela oferece uma visão rápida dos projetos em meu portfólio, destacand
 | [Redução de Cancelamentos em Serviço de Assinatura](#reducao-de-cancelamentos-em-servico-de-assinatura)   | Análise para entender cancelamentos e gerar insights para retenção.                          | Python, Pandas, Plotly, Jupyter Notebook                 | 🛠️ |
 | [Análise de Dados no Varejo](#analise-exploratoria-de-dados-no-varejo)                                    | Exploração de dados reais do varejo com gráficos e versão web com Flask.                     | Python, Pandas, Matplotlib, Flask, Docker                | 🛠️ |
 | [Predição de Aluguel com Regressão Linear](#predicao-de-aluguel-com-regressao-linear)                     | Modelo de regressão linear para estimar valores de aluguel.                                  | Python, Jupyter Notebook, Statsmodels                    | 🛠️ |
-| [Predição Salarial com Machine Learning](#predicao-salarial-com-machine-learning)                          | Modelo que estima salário com base nas horas de estudo.                                      | Python, Scikit-Learn, NumPy, Pandas, Matplotlib, Seaborn | 🛠️ |
+| [Predição Salarial com Machine Learning](#predicao-salarial-com-machine-learning)                         | Modelo que estima salário com base nas horas de estudo.                                      | Python, Scikit-Learn, NumPy, Pandas, Matplotlib, Seaborn | 🛠️ |
 | [Previsão de Vendas com Séries Temporais](#previsao-de-vendas-com-series-temporais)                       | Previsão de vendas usando suavização exponencial.                                            | Python, Statsmodels, Pandas, Matplotlib, Seaborn         | 🛠️ |
 | [Score de Crédito com ML](#sistema-de-previsao-de-score-para-clientes-bancarios)                          | Previsão de score de crédito com Random Forest e KNN.                                        | Python, Scikit-Learn, Pandas, Jupyter Notebook           | 🛠️ |
-| [Dashboards PowerBI](#dashboards-powerbi)                                                                 | Conjunto de dashboards desenvolvidos no Power BI, com foco em estudos e aplicações práticas. | PowerBI, DAX, Power Query, SQL, Machine Learning         | 🛠️ |
-| [Estudos em R](#estudos-em-r)                                                                             | Conjunto de scripts em R para introdução e execução de análises de dados.                    | PowerBI, DAX, Power Query, SQL, Machine Learning         | 🛠️ |
+| [Dashboards PowerBI](#dashboards-powerbi)                                                                 | Conjunto de dashboards desenvolvidos no Power BI, com foco em estudos e aplicações práticas. | PowerBI, DAX, Power Query, SQL, Machine Learning         | ✅ |
+| [Estudos em R](#estudos-em-r)                                                                             | Conjunto de scripts em R para introdução e execução de análises de dados.                    | R                                                        | ✅ |
 
 > 🧭 Legenda dos Status: <br>
 >> ✅ Concluído <br>
