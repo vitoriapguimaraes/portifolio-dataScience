@@ -10,14 +10,15 @@ Olá! 👋 Seja bem-vindo(a) ao meu portfólio de projetos em Data Science. Expl
 > > [![Plotly](https://img.shields.io/badge/Plotly-000000?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com/)
 > > [![ggplot2](https://img.shields.io/badge/ggplot2-000000?style=for-the-badge&logo=r&logoColor=white)](https://ggplot2.tidyverse.org/)
 > > [![Seaborn](https://img.shields.io/badge/Seaborn-000000?style=for-the-badge&logo=python&logoColor=white)](https://seaborn.pydata.org/)
-> > [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-000000?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
-> > [![R](https://img.shields.io/badge/R-000000?style=for-the-badge&logo=r&logoColor=white)](https://www.r-project.org/)  
 > 
 > 🤖 **Machine Learning e Ciência de Dados**  
 > > [![Machine Learning](https://img.shields.io/badge/Machine%20Learning-000000?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
 > > [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-000000?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/)
 > > [![R](https://img.shields.io/badge/R-000000?style=for-the-badge&logo=r&logoColor=white)](https://www.r-project.org/)
-> 
+> > [![Keras](https://img.shields.io/badge/Keras-000000?style=for-the-badge&logo=keras&logoColor=white)](https://keras.io/)
+> > [![TensorFlow](https://img.shields.io/badge/TensorFlow-000000?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+> > [![PIL](https://img.shields.io/badge/PIL-000000?style=for-the-badge&logo=python&logoColor=white)](https://pillow.readthedocs.io/en/stable/)
+> > 
 > 📈 **Business Intelligence**  
 > > [![Power BI](https://img.shields.io/badge/Power%20BI-000000?style=for-the-badge&logo=powerbi&logoColor=white)](https://powerbi.microsoft.com/)
 > > [![DAX](https://img.shields.io/badge/DAX-000000?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/en-us/dax/)
@@ -31,7 +32,9 @@ Olá! 👋 Seja bem-vindo(a) ao meu portfólio de projetos em Data Science. Expl
 Esta tabela oferece uma visão rápida dos projetos em meu portfólio, destacando seu status, as principais tecnologias utilizadas e uma breve descrição de cada um.
 
 | Projeto                                                                                                   | Descrição                                                                                    | Tecnologias Utilizadas                                   | Status |
-|-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|----------------------------------------------------------|--------|
+|-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|--------|
+| [Classificação de Imagens com TensorFlow](#classificacao-de-imagens-com-tensorflow)                       | Classificação de imagens com CNNs usando o dataset CIFAR-10.                                 | Python, TensorFlow, Keras, Numpy, Matplotlib, PIL        | ✅ |
+| [Robô Trading com Q-Learning](#robo-trading-com-q-learning)                                               | Robô que decide comprar ou vender ações para maximizar lucros com IA.                        | Python, Pandas, Numpy, Plotly, Q-Learning                | 🛠️ |
 | [Motivo de Cancelamento do Cartão](#motivo-de-cancelamento-do-cartao)                                     | Análise de padrões de clientes que cancelaram cartões, com exportação de gráficos em PDF.    | Python, Pandas, Plotly, PyPDF2                           | 🛠️ |
 | [Redução de Cancelamentos em Serviço de Assinatura](#reducao-de-cancelamentos-em-servico-de-assinatura)   | Análise para entender cancelamentos e gerar insights para retenção.                          | Python, Pandas, Plotly, Jupyter Notebook                 | 🛠️ |
 | [Análise de Dados no Varejo](#analise-exploratoria-de-dados-no-varejo)                                    | Exploração de dados reais do varejo com gráficos e versão web com Flask.                     | Python, Pandas, Matplotlib, Flask, Docker                | 🛠️ |
@@ -40,7 +43,7 @@ Esta tabela oferece uma visão rápida dos projetos em meu portfólio, destacand
 | [Previsão de Vendas com Séries Temporais](#previsao-de-vendas-com-series-temporais)                       | Previsão de vendas usando suavização exponencial.                                            | Python, Statsmodels, Pandas, Matplotlib, Seaborn         | 🛠️ |
 | [Score de Crédito com ML](#sistema-de-previsao-de-score-para-clientes-bancarios)                          | Previsão de score de crédito com Random Forest e KNN.                                        | Python, Scikit-Learn, Pandas, Jupyter Notebook           | 🛠️ |
 | [Dashboards PowerBI](#dashboards-powerbi)                                                                 | Conjunto de dashboards desenvolvidos no Power BI, com foco em estudos e aplicações práticas. | PowerBI, DAX, Power Query, SQL, Machine Learning         | 🛠️ |
-| [Estudos em R](#estudos-em-r)                                                                             | Conjunto de scripts em R para introdução e execução de análises de dados.                    | R                                                        | 🛠️ |
+| [Estudos em R](#estudos-em-r)                                                                             | Conjunto de scripts em R para introdução e execução de análises de dados.                    | R                                                               | 🛠️ |
 
 > 🧭 Legenda dos Status: <br>
 >> ✅ Concluído <br>
@@ -52,6 +55,28 @@ Esta tabela oferece uma visão rápida dos projetos em meu portfólio, destacand
 Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluindo demonstrações visuais e links para os repositórios e sites.
 
 ## Projetos em Python
+
+### Classificacao de Imagens com TensorFlow
+
+![Tela do sistema](https://github.com/vitoriapguimaraes/Python-ClassificacaoImagensTensorFlow/blob/main/results/software.gif)
+
+> Modelo de IA para classificar imagens do dataset CIFAR-10 com uso de Redes Neurais Convolucionais.
+>
+> **Tecnologias:** Python, TensorFlow, Keras, Numpy, Matplotlib, PIL
+> 
+> ✅ Concluído
+
+[![Acesse o Repositório](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-ClassificacaoImagensTensorFlow)
+
+### Robo Trading com Q-Learning
+
+> Robô inteligente que realiza operações de compra e venda de ações com base em algoritmos de aprendizado por reforço.
+>
+> **Tecnologias:** Python, Pandas, Numpy, Plotly, Q-Learning
+> 
+> 🛠️ Em manutenção
+
+[![Acesse o Repositório](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-RoboTradingQLearning)
 
 ### Motivo de Cancelamento do Cartao
 
