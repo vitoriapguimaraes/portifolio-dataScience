@@ -1,5 +1,5 @@
 # Meu Portfólio de Projetos Data Science
-> Minha stack em Data Science é composta por um conjunto robusto de ferramentas que cobrem todas as etapas do ciclo de vida dos dados — desde a coleta e manipulação até a modelagem e visualização, incluindo soluções voltadas para análise de negócios e business intelligence.
+> Minha stack em Data Science é composta por um conjunto de ferramentas que cobrem as etapas do ciclo de vida dos dados — desde a coleta e manipulação até a modelagem e visualização, incluindo soluções voltadas para análise de negócios e business intelligence.
 
 Olá! 👋 Seja bem-vindo(a) ao meu portfólio de projetos em Data Science. Explore meus projetos práticos no repositório e veja como utilizo essa stack para resolver problemas reais de dados — com foco em análise exploratória, modelagem preditiva e visualizações impactantes.
 
