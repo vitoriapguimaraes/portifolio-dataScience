@@ -43,9 +43,6 @@ Esta tabela oferece uma visão rápida dos projetos em meu portfólio, destacand
 | [Previsão de Vendas com Séries Temporais](#previsao-de-vendas-com-series-temporais)                       | Previsão de vendas usando suavização exponencial.                                            | Python, Statsmodels, Pandas, Matplotlib, Seaborn         | 🛠️ |
 | [Score de Crédito com ML](#sistema-de-previsao-de-score-para-clientes-bancarios)                          | Previsão de score de crédito com Random Forest e KNN.                                        | Python, Scikit-Learn, Pandas, Jupyter Notebook           | 🛠️ |
 | [Estudos de pipeline](#estudos-em-pipeline)                                                               |     |     | 🛠️ |
-
-### Estudos de pipeline
-
 | [Dashboards PowerBI](#dashboards-powerbi)                                                                 | Conjunto de dashboards desenvolvidos no Power BI, com foco em estudos e aplicações práticas. | PowerBI, DAX, Power Query, SQL, Machine Learning         | 🛠️ |
 | [Estudos em R](#estudos-em-r)                                                                             | Conjunto de scripts em R para introdução e execução de análises de dados.                    | R                                                               | 🛠️ |
 
