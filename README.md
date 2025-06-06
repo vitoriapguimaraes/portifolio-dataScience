@@ -86,7 +86,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 > 
 > 🛠️ Em manutenção
 
-[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](LINK)
+[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-Cancelamento_Cartao)
 
 ### Reducao de Cancelamentos em Servico de Assinatura
 
@@ -96,7 +96,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 > 
 > 🛠️ Em manutenção
 
-[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](LINK)
+[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-Cancelamento_Clientes)
 
 ### Analise Exploratoria de Dados no Varejo
 
@@ -106,7 +106,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 > 
 > 🛠️ Em manutenção
 
-[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](LINK)
+[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-Explorar_Dados_Varejo)
 
 ### Predicao de Aluguel com Regressao Linear
 
@@ -116,7 +116,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 > 
 > 🛠️ Em manutenção
 
-[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](LINK)
+[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-Predicao_Regressao_Linear)
 
 ### Predicao Salarial com Machine Learning
 
@@ -126,7 +126,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 > 
 > 🛠️ Em manutenção
 
-[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](LINK)
+[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-Predicao_Machine_Learning)
 
 ### Previsao de Vendas com Series Temporais
 
@@ -136,7 +136,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 > 
 > 🛠️ Em manutenção
 
-[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](LINK)
+[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-Predicao_Suavizacao_Exponencial)
 
 ### Sistema de Previsao de Score para Clientes Bancarios
 
@@ -147,7 +147,10 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 > 🛠️ Em manutenção
 > 
 
-[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](LINK)
+[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-Previsao_Credito)
+
+### Estudos de pipeline
+[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-Estudos_Pipelines)
 
 ## Dashboards PowerBI
 
@@ -159,18 +162,18 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 > 
 > Lista dos projetos desenvolvidos:
 >
-> [![Dashboard Marketing](https://img.shields.io/badge/Dashboard%20Marketing-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dataScience_dashboards/tree/main/Dashboard%20Marketing)<br>
-> [![Dashboard Comercial](https://img.shields.io/badge/Dashboard%20Comercial-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dataScience_dashboards/tree/main/Dashboard%20Comercial)<br>
-> [![Dashboard Vendas](https://img.shields.io/badge/Dashboard%20Vendas-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dataScience_dashboards/tree/main/Dashborad%20Vendas)<br>
-> [![Dashboard Geral](https://img.shields.io/badge/Dashboard%20Geral-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dataScience_dashboards/tree/main/Dashboard%20Geral)<br>
-> [![Dashboard RH](https://img.shields.io/badge/Dashboard%20RH-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dataScience_dashboards/tree/main/Dashboard%20RH)<br>
-> [![Dashboard Segmentação](https://img.shields.io/badge/Dashboard%20Segmentação%20Clientes-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dataScience_dashboards/tree/main/Dashboard%20Segmenta%C3%A7%C3%A3o%20Clientes)<br>
-> [![Dashboard Logística](https://img.shields.io/badge/Dashboard%20Logística-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dataScience_dashboards/tree/main/Dashboard%20Logistica)<br>
-> [![Dashboard Financeiro](https://img.shields.io/badge/Dashboard%20Financeiro-black?style=flat-square)]([link](https://github.com/vitoriapguimaraes/PowerBI-dataScience_dashboards/tree/main/Dashboard%20Financeiro))<br>
-> [![Dashboard Séries Temporais](https://img.shields.io/badge/Dashboard%20Séries%20Temporais-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dataScience_dashboards/tree/main/Dashboard%20Series%20Temporais)<br>
-> [![Dashboard Anomalias](https://img.shields.io/badge/Dashboard%20Anomalias-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dataScience_dashboards/tree/main/Dashboard%20Anomalias)
+> [![Dashboard Marketing](https://img.shields.io/badge/Dashboard%20Marketing-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dashboards/tree/main/Dashboard%20Marketing)<br>
+> [![Dashboard Comercial](https://img.shields.io/badge/Dashboard%20Comercial-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dashboards/tree/main/Dashboard%20Comercial)<br>
+> [![Dashboard Vendas](https://img.shields.io/badge/Dashboard%20Vendas-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dashboards/tree/main/Dashborad%20Vendas)<br>
+> [![Dashboard Geral](https://img.shields.io/badge/Dashboard%20Geral-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dashboards/tree/main/Dashboard%20Geral)<br>
+> [![Dashboard RH](https://img.shields.io/badge/Dashboard%20RH-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dashboards/tree/main/Dashboard%20RH)<br>
+> [![Dashboard Segmentação](https://img.shields.io/badge/Dashboard%20Segmentação%20Clientes-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dashboards/tree/main/Dashboard%20Segmenta%C3%A7%C3%A3o%20Clientes)<br>
+> [![Dashboard Logística](https://img.shields.io/badge/Dashboard%20Logística-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dashboards/tree/main/Dashboard%20Logistica)<br>
+> [![Dashboard Financeiro](https://img.shields.io/badge/Dashboard%20Financeiro-black?style=flat-square)]([link](https://github.com/vitoriapguimaraes/PowerBI-dashboards/tree/main/Dashboard%20Financeiro))<br>
+> [![Dashboard Séries Temporais](https://img.shields.io/badge/Dashboard%20Séries%20Temporais-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dashboards/tree/main/Dashboard%20Series%20Temporais)<br>
+> [![Dashboard Anomalias](https://img.shields.io/badge/Dashboard%20Anomalias-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dashboards/tree/main/Dashboard%20Anomalias)
 
-[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/PowerBI-dataScience_dashboards)
+[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/PowerBI-dashboards)
 
 ## Estudos em R
 
@@ -178,7 +181,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 > 
 > 🛠️ Em manutenção
 
-[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/R-dataScience_studies)
+[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/R-studies)
 
 ---
 
