@@ -35,7 +35,7 @@ Esta tabela oferece uma visão rápida dos projetos em meu portfólio, destacand
 |-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|--------|
 | [Classificação de Imagens com TensorFlow](#classificacao-de-imagens-com-tensorflow)                       | Classificação de imagens com CNNs usando o dataset CIFAR-10.                                 | Python, TensorFlow, Keras, Numpy, Matplotlib, PIL        | ✅ |
 | [Robô Trading com Q-Learning](#robo-trading-com-q-learning)                                               | Robô que decide comprar ou vender ações para maximizar lucros com IA.                        | Python, Pandas, Numpy, Plotly, Q-Learning                | 🛠️ |
-| [Motivo de Cancelamento do Cartão](#motivo-de-cancelamento-do-cartao)                                     | Análise de padrões de clientes que cancelaram cartões, com exportação de gráficos em PDF.    | Python, Pandas, Plotly, PyPDF2                           | 🛠️ |
+| [Motivo de Cancelamento do Cartão](#motivo-de-cancelamento-do-cartao)                                     | Análise de padrões de clientes que cancelaram cartões, com exportação de gráficos em PDF.    | Python, Pandas, Plotly, PyPDF2                           | ✅ |
 | [Redução de Cancelamentos em Serviço de Assinatura](#reducao-de-cancelamentos-em-servico-de-assinatura)   | Análise para entender cancelamentos e gerar insights para retenção.                          | Python, Pandas, Plotly, Jupyter Notebook                 | 🛠️ |
 | [Análise de Dados no Varejo](#analise-exploratoria-de-dados-no-varejo)                                    | Exploração de dados reais do varejo com gráficos e versão web com Flask.                     | Python, Pandas, Matplotlib, Flask, Docker                | 🛠️ |
 | [Predição de Aluguel com Regressão Linear](#predicao-de-aluguel-com-regressao-linear)                     | Modelo de regressão linear para estimar valores de aluguel.                                  | Python, Jupyter Notebook, Statsmodels                    | 🛠️ |
@@ -85,7 +85,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 > 
 > **Tecnologias:** Python, Pandas, Plotly, PyPDF2
 > 
-> 🛠️ Em manutenção
+> ✅ Concluído
 
 [![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-Cancelamento_Cartao)
 
