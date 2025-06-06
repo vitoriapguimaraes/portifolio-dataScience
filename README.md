@@ -81,6 +81,8 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 
 ### Motivo de Cancelamento do Cartao
 
+![Resultado do sistema](https://github.com/vitoriapguimaraes/Python-Cancelamento_Cartao/blob/main/results/AnaliseCancelamentoCartao-Demonstracao.png)
+
 > Projeto de análise de dados que visa identificar padrões de comportamento entre clientes que cancelaram seus cartões. Com gráficos e estatísticas, ele busca entender variáveis que influenciam o cancelamento.
 > 
 > **Tecnologias:** Python, Pandas, Plotly, PyPDF2
