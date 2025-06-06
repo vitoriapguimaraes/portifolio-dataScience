@@ -47,9 +47,9 @@ Esta tabela oferece uma visão rápida dos projetos em meu portfólio, destacand
 | [Estudos em R](#estudos-em-r)                                                                             | Conjunto de scripts em R para introdução e execução de análises de dados.                    | R                                                               | 🛠️ |
 
 > 🧭 Legenda dos Status: <br>
->> ✅ Concluído <br>
->> 🛠️ Em manutenção <br>
->> 🚧 Em desenvolvimento
+>> ✅ Concluído: versão atual funcional entregue <br>
+>> 🛠️ Em manutenção: ajustes e correções em andamento <br>
+>> 🚧 Em desenvolvimento: funcionalidades ativas sendo construídas
 
 ---
 
