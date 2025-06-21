@@ -73,7 +73,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 
 ### Deteccao e Contagem de veiculos com OpenCV
 
-![Demonstração do sistema](https://github.com/vitoriapguimaraes/Python-VisaoComputacionalDeteccaoMovimentoOpenCV/tree/main/results/display.gif)
+![Demonstração do sistema](https://github.com/vitoriapguimaraes/Python-VisaoComputacionalDeteccaoMovimentoOpenCV/blob/main/results/display.gif)
 
 > Projeto de visão computacional para detecção e contagem automática de veículos em vídeos de tráfego, utilizando técnicas de subtração de fundo e processamento de imagens com OpenCV.
 >
