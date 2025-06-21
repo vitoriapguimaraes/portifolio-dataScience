@@ -32,8 +32,9 @@ Olá! 👋 Seja bem-vindo(a) ao meu portfólio de projetos em Data Science. Expl
 Esta tabela oferece uma visão rápida dos projetos em meu portfólio, destacando seu status, as principais tecnologias utilizadas e uma breve descrição de cada um.
 
 | Projeto                                                                                                   | Descrição                                                                                    | Tecnologias Utilizadas                                   | Status |
-|-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|--------|
+|-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|----------------------------------------------------------|--------|
 | [Classificação de Imagens com TensorFlow](#classificacao-de-imagens-com-tensorflow)                       | Classificação de imagens com CNNs usando o dataset CIFAR-10.                                 | Python, TensorFlow, Keras, Numpy, Matplotlib, PIL        | ✅ |
+| [Deteccao e Contagem de veiculos com OpenCV](#deteccao-e-contagem-de-veiculos-com-OpenCV)                 | Visão computacional: detecção de movimento com Open CV.                                      | Python, OpenCV, Numpy                                    | ✅ |
 | [Robô Trading com Q-Learning](#robo-trading-com-q-learning)                                               | Robô que decide comprar ou vender ações para maximizar lucros com IA.                        | Python, Pandas, Numpy, Plotly, Q-Learning                | 🛠️ |
 | [Motivo de Cancelamento do Cartão](#motivo-de-cancelamento-do-cartao)                                     | Análise de padrões de clientes que cancelaram cartões, com exportação de gráficos em PDF.    | Python, Pandas, Plotly, PyPDF2                           | ✅ |
 | [Redução de Cancelamentos em Serviço de Assinatura](#reducao-de-cancelamentos-em-servico-de-assinatura)   | Análise para entender cancelamentos e gerar insights para retenção.                          | Python, Pandas, Plotly, Jupyter Notebook                 | 🛠️ |
@@ -44,7 +45,7 @@ Esta tabela oferece uma visão rápida dos projetos em meu portfólio, destacand
 | [Score de Crédito com ML](#sistema-de-previsao-de-score-para-clientes-bancarios)                          | Previsão de score de crédito com Random Forest e KNN.                                        | Python, Scikit-Learn, Pandas, Jupyter Notebook           | 🛠️ |
 | [Estudos de pipeline](#estudos-de-pipeline)                                                               |     |     | 🛠️ |
 | [Dashboards PowerBI](#dashboards-powerbi)                                                                 | Conjunto de dashboards desenvolvidos no Power BI, com foco em estudos e aplicações práticas. | PowerBI, DAX, Power Query, SQL, Machine Learning         | 🛠️ |
-| [Estudos em R](#estudos-em-r)                                                                             | Conjunto de scripts em R para introdução e execução de análises de dados.                    | R                                                               | 🛠️ |
+| [Estudos em R](#estudos-em-r)                                                                             | Conjunto de scripts em R para introdução e execução de análises de dados.                    | R                                                        | 🛠️ |
 
 > 🧭 Legenda dos Status: <br>
 >> ✅ Concluído: versão atual funcional entregue <br>
@@ -68,6 +69,18 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 > ✅ Concluído
 
 [![Acesse o Repositório](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-ClassificacaoImagensTensorFlow)
+
+### Deteccao e Contagem de veiculos com OpenCV
+
+![Demonstração do sistema](https://github.com/vitoriapguimaraes/Python-VisaoComputacionalDeteccaoMovimentoOpenCV/tree/main/results/display.gif)
+
+> Projeto de visão computacional para detecção e contagem automática de veículos em vídeos de tráfego, utilizando técnicas de subtração de fundo e processamento de imagens com OpenCV.
+>
+> **Tecnologias:** Python, OpenCV, Numpy
+> 
+> ✅ Concluído
+
+[![Acesse o Repositório](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-VisaoComputacionalDeteccaoMovimentoOpenCV)
 
 ### Robo Trading com Q-Learning
 
