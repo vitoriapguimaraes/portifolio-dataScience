@@ -18,6 +18,7 @@ Olá! 👋 Seja bem-vindo(a) ao meu portfólio de projetos em Data Science. Expl
 > > [![Keras](https://img.shields.io/badge/Keras-000000?style=for-the-badge&logo=keras&logoColor=white)](https://keras.io/)
 > > [![TensorFlow](https://img.shields.io/badge/TensorFlow-000000?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
 > > [![PIL](https://img.shields.io/badge/PIL-000000?style=for-the-badge&logo=python&logoColor=white)](https://pillow.readthedocs.io/en/stable/)
+> > [![OpenCV](https://img.shields.io/badge/OpenCV-000000?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
 > > 
 > 📈 **Business Intelligence**  
 > > [![Power BI](https://img.shields.io/badge/Power%20BI-000000?style=for-the-badge&logo=powerbi&logoColor=white)](https://powerbi.microsoft.com/)
