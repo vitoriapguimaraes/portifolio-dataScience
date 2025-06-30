@@ -36,8 +36,8 @@ Esta tabela oferece uma visão rápida dos projetos em meu portfólio, destacand
 | Projeto                                                                                                   | Descrição                                                                                    | Tecnologias Utilizadas                                   | Status |
 |-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|----------------------------------------------------------|--------|
 | [Classificação de Imagens com TensorFlow](#classificacao-de-imagens-com-tensorflow)                       | Classificação de imagens com CNNs usando o dataset CIFAR-10.                                 | Python, TensorFlow, Keras, Numpy, Matplotlib, PIL        | ✅ |
-| [Deteccao e Contagem de veiculos com OpenCV](#deteccao-e-contagem-de-veiculos-com-OpenCV)                 | Visão computacional: detecção de movimento com Open CV.                                      | Python, OpenCV, Numpy                                    | ✅ |
-| [Detecção de sonolência com OpenCV e MediaPipe](#Deteccao-de-sonolência-com-OpenCV-e-MediaPipe)           | Visão computacional: detecção de sonolência em motoristas.                                   | Python, OpenCV, MediaPipe, Numpy                         | ✅ |
+| [Deteccao e contagem de veiculos com OpenCV](#deteccao-e-contagem-de-veiculos-com-opencv)                 | Visão computacional: detecção de movimento com Open CV.                                      | Python, OpenCV, Numpy                                    | ✅ |
+| [Deteccao de sonolencia com OpenCV e MediaPipe](#Deteccao-de-sonolencia-com-opencv-e-mediapipe)           | Visão computacional: detecção de sonolência em motoristas.                                   | Python, OpenCV, MediaPipe, Numpy                         | ✅ |
 | [Robô Trading com Q-Learning](#robo-trading-com-q-learning)                                               | Robô que decide comprar ou vender ações para maximizar lucros com IA.                        | Python, Pandas, Numpy, Plotly, Q-Learning                | 🛠️ |
 | [Motivo de Cancelamento do Cartão](#motivo-de-cancelamento-do-cartao)                                     | Análise de padrões de clientes que cancelaram cartões, com exportação de gráficos em PDF.    | Python, Pandas, Plotly, PyPDF2                           | ✅ |
 | [Redução de Cancelamentos em Serviço de Assinatura](#reducao-de-cancelamentos-em-servico-de-assinatura)   | Análise para entender cancelamentos e gerar insights para retenção.                          | Python, Pandas, Plotly, Jupyter Notebook                 | 🛠️ |
@@ -73,7 +73,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 
 [![Acesse o Repositório](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-ClassificacaoImagensTensorFlow)
 
-### Deteccao e Contagem de veiculos com OpenCV
+### Deteccao e contagem de veiculos com OpenCV
 
 ![Demonstração do sistema](https://github.com/vitoriapguimaraes/Python-VisaoComputacionalDeteccaoMovimentoOpenCV/blob/main/results/display.gif)
 
