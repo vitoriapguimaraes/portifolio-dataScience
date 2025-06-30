@@ -19,6 +19,7 @@ Olá! 👋 Seja bem-vindo(a) ao meu portfólio de projetos em Data Science. Expl
 > > [![TensorFlow](https://img.shields.io/badge/TensorFlow-000000?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
 > > [![PIL](https://img.shields.io/badge/PIL-000000?style=for-the-badge&logo=python&logoColor=white)](https://pillow.readthedocs.io/en/stable/)
 > > [![OpenCV](https://img.shields.io/badge/OpenCV-000000?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
+> > [![MediaPipe](https://img.shields.io/badge/MediaPipe-000000?style=for-the-badge&logo=mediapipe&logoColor=white)](https://mediapipe.dev/)
 > > 
 > 📈 **Business Intelligence**  
 > > [![Power BI](https://img.shields.io/badge/Power%20BI-000000?style=for-the-badge&logo=powerbi&logoColor=white)](https://powerbi.microsoft.com/)
@@ -36,6 +37,7 @@ Esta tabela oferece uma visão rápida dos projetos em meu portfólio, destacand
 |-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|----------------------------------------------------------|--------|
 | [Classificação de Imagens com TensorFlow](#classificacao-de-imagens-com-tensorflow)                       | Classificação de imagens com CNNs usando o dataset CIFAR-10.                                 | Python, TensorFlow, Keras, Numpy, Matplotlib, PIL        | ✅ |
 | [Deteccao e Contagem de veiculos com OpenCV](#deteccao-e-contagem-de-veiculos-com-OpenCV)                 | Visão computacional: detecção de movimento com Open CV.                                      | Python, OpenCV, Numpy                                    | ✅ |
+| [Detecção de sonolência com OpenCV e MediaPipe](#Deteccao-de-sonolência-com-OpenCV-e-MediaPipe)           | Visão computacional: detecção de sonolência em motoristas.                                   | Python, OpenCV, MediaPipe, Numpy                         | ✅ |
 | [Robô Trading com Q-Learning](#robo-trading-com-q-learning)                                               | Robô que decide comprar ou vender ações para maximizar lucros com IA.                        | Python, Pandas, Numpy, Plotly, Q-Learning                | 🛠️ |
 | [Motivo de Cancelamento do Cartão](#motivo-de-cancelamento-do-cartao)                                     | Análise de padrões de clientes que cancelaram cartões, com exportação de gráficos em PDF.    | Python, Pandas, Plotly, PyPDF2                           | ✅ |
 | [Redução de Cancelamentos em Serviço de Assinatura](#reducao-de-cancelamentos-em-servico-de-assinatura)   | Análise para entender cancelamentos e gerar insights para retenção.                          | Python, Pandas, Plotly, Jupyter Notebook                 | 🛠️ |
@@ -82,6 +84,18 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 > ✅ Concluído
 
 [![Acesse o Repositório](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-VisaoComputacionalDeteccaoMovimentoOpenCV)
+
+### Deteccao de sonolencia com OpenCV e MediaPipe
+
+![Demonstração do sistema](https://github.com/vitoriapguimaraes/Python-VisaoComputacionalAnaliseFacialOpenCV/blob/main/results/display.gif)
+
+> Sistema de detecção de sonolência em motoristas usando visão computacional, OpenCV e MediaPipe. O projeto visa aumentar a segurança no trânsito ao identificar sinais de fadiga facial em tempo real, alertando o condutor para possíveis riscos.
+> 
+> **Tecnologias:** Python, OpenCV, MediaPipe, Numpy
+> 
+> ✅ Concluído
+
+[![Acesse o Repositório](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-VisaoComputacionalAnaliseFacialOpenCV)
 
 ### Robo Trading com Q-Learning
 
