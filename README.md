@@ -36,6 +36,7 @@ Esta tabela oferece uma visão rápida dos projetos em meu portfólio, destacand
 | Projeto                                                                                                   | Descrição                                                                                    | Tecnologias Utilizadas                                   | Status |
 |-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|----------------------------------------------------------|--------|
 | [Classificação de Imagens com TensorFlow](#classificacao-de-imagens-com-tensorflow)                       | Classificação de imagens com CNNs usando o dataset CIFAR-10.                                 | Python, TensorFlow, Keras, Numpy, Matplotlib, PIL        | ✅ |
+| [Hand Tracking com OpenCV e MediaPipe](#hand-tracking-com-opencv-e-mediapipe)                             | Detecção e rastreamento de mãos em tempo real e as algumas features.                         | Python, OpenCV, MediaPipe, pynput, NumPy                 | ✅ |
 | [Deteccao e contagem de veiculos com OpenCV](#deteccao-e-contagem-de-veiculos-com-opencv)                 | Visão computacional: detecção de movimento com Open CV.                                      | Python, OpenCV, Numpy                                    | ✅ |
 | [Deteccao de sonolencia com OpenCV e MediaPipe](#Deteccao-de-sonolencia-com-opencv-e-mediapipe)           | Visão computacional: detecção de sonolência em motoristas.                                   | Python, OpenCV, MediaPipe, Numpy                         | ✅ |
 | [Robô Trading com Q-Learning](#robo-trading-com-q-learning)                                               | Robô que decide comprar ou vender ações para maximizar lucros com IA.                        | Python, Pandas, Numpy, Plotly, Q-Learning                | 🛠️ |
@@ -72,6 +73,18 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 > ✅ Concluído
 
 [![Acesse o Repositório](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-ClassificacaoImagensTensorFlow)
+
+### Hand Tracking com OpenCV e MediaPipe
+
+![Demonstração do sistema](https://github.com/vitoriapguimaraes/Python-VisaoComputacionalHandTrackingOpenCV/blob/main/results/display.gif)
+
+> Projeto Python para detecção e rastreamento de mãos em tempo real, reconhecimento de gestos, teclado virtual e quadro de desenho usando OpenCV e MediaPipe. Permite interação intuitiva com o computador por gestos, incluindo controle de aplicativos e desenho virtual.
+>
+> **Tecnologias:** Python, OpenCV, MediaPipe, pynput, NumPy
+> 
+> ✅ Concluído
+
+[![Acesse o Repositório](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-VisaoComputacionalHandTrackingOpenCV)
 
 ### Deteccao e contagem de veiculos com OpenCV
 
