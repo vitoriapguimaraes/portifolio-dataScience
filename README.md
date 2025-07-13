@@ -49,7 +49,7 @@ Esta tabela oferece uma visão rápida dos projetos em meu portfólio, destacand
 | [Score de Crédito com ML](#sistema-de-previsao-de-score-para-clientes-bancarios)                          | Previsão de score de crédito com Random Forest e KNN.                                        | Python, Scikit-Learn, Pandas, Jupyter Notebook           | 🛠️ |
 | [Estudos de pipeline](#estudos-de-pipeline)                                                               |     |     | 🛠️ |
 | [Dashboards PowerBI](#dashboards-powerbi)                                                                 | Conjunto de dashboards desenvolvidos no Power BI, com foco em estudos e aplicações práticas. | PowerBI, DAX, Power Query, SQL, Machine Learning         | 🛠️ |
-| [Estudos em R](#estudos-em-r)                                                                             | Conjunto de scripts em R para introdução e execução de análises de dados.                    | R                                                        | 🛠️ |
+| [Estudos em R](#estudos-em-r)                                                                             | Conjunto de scripts em R para introdução e execução de análises de dados.                    | R                                                        | ✅ |
 
 > 🧭 Legenda dos Status: <br>
 >> ✅ Concluído: versão atual funcional entregue <br>
@@ -64,7 +64,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 
 ### Classificacao de Imagens com TensorFlow
 
-![Tela do sistema](https://github.com/vitoriapguimaraes/Python-ClassificacaoImagensTensorFlow/blob/main/results/software.gif)
+<img src="https://github.com/vitoriapguimaraes/Python-ClassificacaoImagensTensorFlow/blob/main/results/software.gif" alt="Tela do sistema" width="800"/>
 
 > Modelo de IA para classificar imagens do dataset CIFAR-10 com uso de Redes Neurais Convolucionais.
 >
@@ -76,7 +76,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 
 ### Hand Tracking com OpenCV e MediaPipe
 
-![Demonstração do sistema](https://github.com/vitoriapguimaraes/Python-VisaoComputacionalHandTrackingOpenCV/blob/main/results/display.gif)
+<img src="https://github.com/vitoriapguimaraes/Python-VisaoComputacionalHandTrackingOpenCV/blob/main/results/display.gif" alt="Demonstração do sistema" width="800"/>
 
 > Projeto Python para detecção e rastreamento de mãos em tempo real, reconhecimento de gestos, teclado virtual e quadro de desenho usando OpenCV e MediaPipe. Permite interação intuitiva com o computador por gestos, incluindo controle de aplicativos e desenho virtual.
 >
@@ -88,7 +88,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 
 ### Deteccao e contagem de veiculos com OpenCV
 
-![Demonstração do sistema](https://github.com/vitoriapguimaraes/Python-VisaoComputacionalDeteccaoMovimentoOpenCV/blob/main/results/display.gif)
+<img src="https://github.com/vitoriapguimaraes/Python-VisaoComputacionalDeteccaoMovimentoOpenCV/blob/main/results/display.gif" alt="Demonstração do sistema" width="800"/>
 
 > Projeto de visão computacional para detecção e contagem automática de veículos em vídeos de tráfego, utilizando técnicas de subtração de fundo e processamento de imagens com OpenCV.
 >
@@ -100,7 +100,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 
 ### Deteccao de sonolencia com OpenCV e MediaPipe
 
-![Demonstração do sistema](https://github.com/vitoriapguimaraes/Python-VisaoComputacionalAnaliseFacialOpenCV/blob/main/results/display.gif)
+<img src="https://github.com/vitoriapguimaraes/Python-VisaoComputacionalAnaliseFacialOpenCV/blob/main/results/display.gif" alt="Demonstração do sistema" width="800"/>
 
 > Sistema de detecção de sonolência em motoristas usando visão computacional, OpenCV e MediaPipe. O projeto visa aumentar a segurança no trânsito ao identificar sinais de fadiga facial em tempo real, alertando o condutor para possíveis riscos.
 > 
@@ -122,7 +122,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 
 ### Motivo de Cancelamento do Cartao
 
-![Resultado do sistema](https://github.com/vitoriapguimaraes/Python-Cancelamento_Cartao/blob/main/results/AnaliseCancelamentoCartao-Demonstracao.png)
+<img src="https://github.com/vitoriapguimaraes/Python-Cancelamento_Cartao/blob/main/results/AnaliseCancelamentoCartao-Demonstracao.png" alt="Resultado do sistema" width="800"/>
 
 > Projeto de análise de dados que visa identificar padrões de comportamento entre clientes que cancelaram seus cartões. Com gráficos e estatísticas, ele busca entender variáveis que influenciam o cancelamento.
 > 
@@ -222,9 +222,11 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 
 ## Estudos em R
 
+<img src="https://github.com/vitoriapguimaraes/portifolio-R-DataScience/raw/main/results/3-exemplo_analise_dataset_display.png" alt="Exemplo de Gráfico" width="800"/>
+
 > Este repositório contém scripts em R para introdução e execução de análises de dados, abordando desde conceitos básicos até análises específicas, como análise de variância e manipulação de datasets.
 > 
-> 🛠️ Em manutenção
+> ✅ Concluído
 
 [![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/R-studies)
 
