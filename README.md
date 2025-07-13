@@ -41,13 +41,13 @@ Esta tabela oferece uma visão rápida dos projetos em meu portfólio, destacand
 | [Deteccao de sonolencia com OpenCV e MediaPipe](#Deteccao-de-sonolencia-com-opencv-e-mediapipe)           | Projeto de visão computacional para detecção de sonolência em motoristas.                    | Python, OpenCV, MediaPipe, Numpy                         | ✅ |
 | [Robô Trading com Q-Learning](#robo-trading-com-q-learning)                                               | Robô que decide comprar ou vender ações para maximizar lucros com IA.                        | Python, Pandas, Numpy, Plotly, Q-Learning                | 🛠️ |
 | [Motivo de Cancelamento do Cartão](#motivo-de-cancelamento-do-cartao)                                     | Análise de padrões de clientes que cancelaram cartões, com exportação de gráficos em PDF.    | Python, Pandas, Plotly, PyPDF2                           | ✅ |
-| [Redução de Cancelamentos em Serviço de Assinatura](#reducao-de-cancelamentos-em-servico-de-assinatura)   | Análise para entender cancelamentos e gerar insights para retenção.                          | Python, Pandas, Plotly, Jupyter Notebook                 | 🛠️ |
 | [Análise de Dados no Varejo](#analise-exploratoria-de-dados-no-varejo)                                    | Exploração de dados reais do varejo com gráficos e versão web com Flask.                     | Python, Pandas, Matplotlib, Flask, Docker                | 🛠️ |
 | [Predição de Aluguel com Regressão Linear](#predicao-de-aluguel-com-regressao-linear)                     | Modelo de regressão linear para estimar valores de aluguel.                                  | Python, Jupyter Notebook, Statsmodels                    | 🛠️ |
 | [Predição Salarial com Machine Learning](#predicao-salarial-com-machine-learning)                         | Modelo que estima salário com base nas horas de estudo.                                      | Python, Scikit-Learn, NumPy, Pandas, Matplotlib, Seaborn | 🛠️ |
 | [Previsão de Vendas com Séries Temporais](#previsao-de-vendas-com-series-temporais)                       | Previsão de vendas usando suavização exponencial.                                            | Python, Statsmodels, Pandas, Matplotlib, Seaborn         | 🛠️ |
 | [Score de Crédito com ML](#sistema-de-previsao-de-score-para-clientes-bancarios)                          | Previsão de score de crédito com Random Forest e KNN.                                        | Python, Scikit-Learn, Pandas, Jupyter Notebook           | 🛠️ |
 | [Estudos de pipeline](#estudos-de-pipeline)                                                               |     |     | 🛠️ |
+| [Redução de Cancelamentos em Serviço de Assinatura](#reducao-de-cancelamentos-em-servico-de-assinatura)   | Análise para entender cancelamentos e gerar insights para retenção.                          | Python, Pandas, Plotly, Jupyter Notebook                 | ✅ |
 | [Dashboards PowerBI](#dashboards-powerbi)                                                                 | Conjunto de dashboards desenvolvidos no Power BI, com foco em estudos e aplicações práticas. | PowerBI, DAX, Power Query, SQL, Machine Learning         | 🛠️ |
 | [Estudos em R](#estudos-em-r)                                                                             | Conjunto de scripts em R para introdução e execução de análises de dados.                    | R                                                        | ✅ |
 
@@ -132,16 +132,6 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 
 [![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-Cancelamento_Cartao)
 
-### Reducao de Cancelamentos em Servico de Assinatura
-
-> Análise de dados para identificar fatores que levam ao cancelamento de clientes e definir ações de retenção, com base em um conjunto de dados de uma empresa de assinaturas.
-> 
-> **Tecnologias:** Python, Pandas, Plotly, JupyterNotebook
-> 
-> 🛠️ Em manutenção
-
-[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-Cancelamento_Clientes)
-
 ### Analise Exploratoria de Dados no Varejo
 
 > Análise de um banco de dados real do setor varejista para extração de insights comerciais e criação de gráficos informativos. OBS.: Esse projeto tem uma versão Web, utilizando Flask e Docker, disponibilizado dentro do próprio repositório.
@@ -196,6 +186,18 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 ### Estudos de pipeline
 
 [![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-Estudos_Pipelines)
+
+### Reducao de Cancelamentos em Servico de Assinatura
+
+<img src="https://github.com/vitoriapguimaraes/Python-Cancelamento_Clientes/blob/main/results/results_show.png" alt="Resultado do sistema" width="800"/>
+
+> Análise de dados para identificar fatores que levam ao cancelamento de clientes e definir ações de retenção, com base em um conjunto de dados de uma empresa de assinaturas.
+> 
+> **Tecnologias:** Python, Pandas, Plotly, JupyterNotebook
+> 
+> ✅ Concluído
+
+[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-Cancelamento_Clientes)
 
 ## Dashboards PowerBI
 
