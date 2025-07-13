@@ -37,8 +37,8 @@ Esta tabela oferece uma visão rápida dos projetos em meu portfólio, destacand
 |-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|----------------------------------------------------------|--------|
 | [Classificação de Imagens com TensorFlow](#classificacao-de-imagens-com-tensorflow)                       | Classificação de imagens com CNNs usando o dataset CIFAR-10.                                 | Python, TensorFlow, Keras, Numpy, Matplotlib, PIL        | ✅ |
 | [Hand Tracking com OpenCV e MediaPipe](#hand-tracking-com-opencv-e-mediapipe)                             | Detecção e rastreamento de mãos em tempo real e as algumas features.                         | Python, OpenCV, MediaPipe, pynput, NumPy                 | ✅ |
-| [Deteccao e contagem de veiculos com OpenCV](#deteccao-e-contagem-de-veiculos-com-opencv)                 | Visão computacional: detecção de movimento com Open CV.                                      | Python, OpenCV, Numpy                                    | ✅ |
-| [Deteccao de sonolencia com OpenCV e MediaPipe](#Deteccao-de-sonolencia-com-opencv-e-mediapipe)           | Visão computacional: detecção de sonolência em motoristas.                                   | Python, OpenCV, MediaPipe, Numpy                         | ✅ |
+| [Deteccao e contagem de veiculos com OpenCV](#deteccao-e-contagem-de-veiculos-com-opencv)                 | Projeto de visão computacional para detecção de movimento com Open CV.                       | Python, OpenCV, Numpy                                    | ✅ |
+| [Deteccao de sonolencia com OpenCV e MediaPipe](#Deteccao-de-sonolencia-com-opencv-e-mediapipe)           | Projeto de visão computacional para detecção de sonolência em motoristas.                    | Python, OpenCV, MediaPipe, Numpy                         | ✅ |
 | [Robô Trading com Q-Learning](#robo-trading-com-q-learning)                                               | Robô que decide comprar ou vender ações para maximizar lucros com IA.                        | Python, Pandas, Numpy, Plotly, Q-Learning                | 🛠️ |
 | [Motivo de Cancelamento do Cartão](#motivo-de-cancelamento-do-cartao)                                     | Análise de padrões de clientes que cancelaram cartões, com exportação de gráficos em PDF.    | Python, Pandas, Plotly, PyPDF2                           | ✅ |
 | [Redução de Cancelamentos em Serviço de Assinatura](#reducao-de-cancelamentos-em-servico-de-assinatura)   | Análise para entender cancelamentos e gerar insights para retenção.                          | Python, Pandas, Plotly, Jupyter Notebook                 | 🛠️ |
@@ -76,7 +76,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 
 ### Hand Tracking com OpenCV e MediaPipe
 
-<img src="https://github.com/vitoriapguimaraes/Python-VisaoComputacionalHandTrackingOpenCV/blob/main/results/display.gif" alt="Demonstração do sistema" width="800"/>
+<img src="https://github.com/vitoriapguimaraes/Python-HandTrackingOpenCV/blob/main/results/display.gif" alt="Demonstração do sistema" width="800"/>
 
 > Projeto Python para detecção e rastreamento de mãos em tempo real, reconhecimento de gestos, teclado virtual e quadro de desenho usando OpenCV e MediaPipe. Permite interação intuitiva com o computador por gestos, incluindo controle de aplicativos e desenho virtual.
 >
@@ -84,11 +84,11 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 > 
 > ✅ Concluído
 
-[![Acesse o Repositório](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-VisaoComputacionalHandTrackingOpenCV)
+[![Acesse o Repositório](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-HandTrackingOpenCV)
 
 ### Deteccao e contagem de veiculos com OpenCV
 
-<img src="https://github.com/vitoriapguimaraes/Python-VisaoComputacionalDeteccaoMovimentoOpenCV/blob/main/results/display.gif" alt="Demonstração do sistema" width="800"/>
+<img src="https://github.com/vitoriapguimaraes/Python-DeteccaoMovimentoOpenCV/blob/main/results/display.gif" alt="Demonstração do sistema" width="800"/>
 
 > Projeto de visão computacional para detecção e contagem automática de veículos em vídeos de tráfego, utilizando técnicas de subtração de fundo e processamento de imagens com OpenCV.
 >
@@ -96,11 +96,11 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 > 
 > ✅ Concluído
 
-[![Acesse o Repositório](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-VisaoComputacionalDeteccaoMovimentoOpenCV)
+[![Acesse o Repositório](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-DeteccaoMovimentoOpenCV)
 
 ### Deteccao de sonolencia com OpenCV e MediaPipe
 
-<img src="https://github.com/vitoriapguimaraes/Python-VisaoComputacionalAnaliseFacialOpenCV/blob/main/results/display.gif" alt="Demonstração do sistema" width="800"/>
+<img src="https://github.com/vitoriapguimaraes/Python-AnaliseFacialOpenCV/blob/main/results/display.gif" alt="Demonstração do sistema" width="800"/>
 
 > Sistema de detecção de sonolência em motoristas usando visão computacional, OpenCV e MediaPipe. O projeto visa aumentar a segurança no trânsito ao identificar sinais de fadiga facial em tempo real, alertando o condutor para possíveis riscos.
 > 
@@ -108,7 +108,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 > 
 > ✅ Concluído
 
-[![Acesse o Repositório](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-VisaoComputacionalAnaliseFacialOpenCV)
+[![Acesse o Repositório](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-AnaliseFacialOpenCV)
 
 ### Robo Trading com Q-Learning
 
