@@ -51,7 +51,7 @@ A seguir estão listados os projetos de cada área de atuação, oferecendo uma 
 
 ### Analise de Dados e Business Intelligence
 
-<img src="https://github.com/vitoriapguimaraes/dataAnalysisBI/blob/main/demo/navigation.gif" width="500" alt="Demonstração do Sistema">
+<img src="https://github.com/vitoriapguimaraes/dataAnalysisBI/blob/main/demo/navigation.gif" width="600" alt="Demonstração do Sistema">
 
 > Um portfólio interativo de Data Science e BI, reunindo análises exploratórias, dashboards estratégicos e testes estatísticos em uma única aplicação web.
 >
