@@ -41,9 +41,9 @@ Aqui, cada pasta representa um passo na minha jornada de especialização. Organ
 - 🛠️ [Visão Computacional](Visao-Computacional)
 
 > 🧭 Legenda dos Status:
->> ✅ Concluído: versão atual funcional entregue
->> 🛠️ Em manutenção: ajustes e correções em andamento
->> 🚧 Em desenvolvimento: funcionalidades ativas sendo construídas
+>> ✅ Concluído: versão atual funcional entregue <br>
+>> 🛠️ Em manutenção: ajustes e correções em andamento <br>
+>> 🚧 Em desenvolvimento: funcionalidades ativas sendo construídas <br>
 
 ## Resumo dos Projetos
 
@@ -57,6 +57,9 @@ A seguir estão listados os projetos de cada área de atuação, oferecendo uma 
 >
 > ✅ Concluído
 
+[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/dataAnalysisBI)
+[![Ver Site](https://img.shields.io/badge/Ver%20Site-darkgreen?style=for-the-badge)](https://vitoriapguimaraes-datascience-dataanalysisbi.streamlit.app/)
+
 | Módulo de Análise | Descrição e Funcionalidades |
 | :---------------- | :-------------------------- |
 | Segmentação de Clientes (RFM) | Clustering de consumidores baseado em Recência, Frequência e Valor (8 segmentos).                  |
@@ -64,12 +67,9 @@ A seguir estão listados os projetos de cada área de atuação, oferecendo uma 
 | Cancelamento de Cartão        | Diagnóstico de churn, métricas de engajamento e correlações com gráficos interativos.              |
 | Cancelamento de Assinaturas   | Análise de churn em serviços de assinatura (Telco), com simulador de cenários e foco em contratos. |
 
-[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/dataAnalysisBI)
-[![Ver Site](https://img.shields.io/badge/Ver%20Site-darkgreen?style=for-the-badge)](https://vitoriapguimaraes-datascience-dataanalysisbi.streamlit.app/)
-
 ### Estudos em R
 
-<img src="https://github.com/vitoriapguimaraes/portifolio-R-DataScience/raw/main/results/3-exemplo_analise_dataset_display.png" alt="Exemplo de Gráfico" width="800"/>
+<img src="https://github.com/vitoriapguimaraes/portifolio-R-DataScience/raw/main/results/3-exemplo_analise_dataset_display.png" alt="Exemplo de Gráfico" width="600"/>
 
 > Este repositório contém scripts em R para introdução e execução de análises de dados, abordando desde conceitos básicos até análises específicas, como análise de variância e manipulação de datasets.
 >
