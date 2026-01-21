@@ -5,7 +5,7 @@
 Olá! 👋 Seja bem-vindo(a) ao meu laboratório de dados.
 Aqui, cada pasta representa um passo na minha jornada de especialização. Organizeicionei meus projetos para contar a história do meu desenvolvimento: começando com **Projetos Acadêmicos** que solidificaram minha base, passando por **Engenharia de Dados** e Pipelines, até chegar em soluções complexas de **Visual Computacional** e **Machine Learning** aplicadas a problemas reais.
 
-> 📊 **Análise, Manipulação e Visualização de Dados**  
+> 📊 **Análise, Manipulação e Visualização de Dados**
 >
 > > [![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 > > [![Pandas](https://img.shields.io/badge/Pandas-000000?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
@@ -14,7 +14,8 @@ Aqui, cada pasta representa um passo na minha jornada de especialização. Organ
 > > [![ggplot2](https://img.shields.io/badge/ggplot2-000000?style=for-the-badge&logo=r&logoColor=white)](https://ggplot2.tidyverse.org/)
 > > [![Seaborn](https://img.shields.io/badge/Seaborn-000000?style=for-the-badge&logo=python&logoColor=white)](https://seaborn.pydata.org/)
 >
-> 🤖 **Machine Learning e Ciência de Dados**  
+> 🤖 **Machine Learning e Ciência de Dados**
+>
 > > [![Machine Learning](https://img.shields.io/badge/Machine%20Learning-000000?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
 > > [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-000000?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/)
 > > [![R](https://img.shields.io/badge/R-000000?style=for-the-badge&logo=r&logoColor=white)](https://www.r-project.org/)
@@ -24,26 +25,29 @@ Aqui, cada pasta representa um passo na minha jornada de especialização. Organ
 > > [![OpenCV](https://img.shields.io/badge/OpenCV-000000?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
 > > [![MediaPipe](https://img.shields.io/badge/MediaPipe-000000?style=for-the-badge&logo=mediapipe&logoColor=white)](https://mediapipe.dev/)
 >
-> 📈 **Business Intelligence**  
+> 📈 **Business Intelligence**
+>
 > > [![Power BI](https://img.shields.io/badge/Power%20BI-000000?style=for-the-badge&logo=powerbi&logoColor=white)](https://powerbi.microsoft.com/)
 > > [![DAX](https://img.shields.io/badge/DAX-000000?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/en-us/dax/)
 > > [![Power Query](https://img.shields.io/badge/Power%20Query-000000?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/en-us/power-query/)
 >
-> 🗄️ **Banco de Dados e Linguagens de Consulta**  
+> 🗄️ **Banco de Dados e Linguagens de Consulta**
+>
 > > [![SQL](https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
 
 ## Mapa do Portfólio
 
 - ✅ [Análise de Dados e Business Intelligence](#analise-de-dados-e-business-intelligence)
-- ✅ [Machine Learning](Machine-Learning)
-- ✅ [Estudos em R](Estudos-em-R)
+- ✅ [Machine Learning](#machine-learning)
+- ✅ [Estudos em R](#estudos-em-r)
 - 🛠️ [Engenharia de Dados](Engenharia-de-Dados)
 - 🛠️ [Visão Computacional](Visao-Computacional)
 
 > 🧭 Legenda dos Status:
->> ✅ Concluído: versão atual funcional entregue <br>
->> 🛠️ Em manutenção: ajustes e correções em andamento <br>
->> 🚧 Em desenvolvimento: funcionalidades ativas sendo construídas <br>
+>
+> > ✅ Concluído: versão atual funcional entregue <br>
+> > 🛠️ Em manutenção: ajustes e correções em andamento <br>
+> > 🚧 Em desenvolvimento: funcionalidades ativas sendo construídas <br>
 
 ## Resumo dos Projetos
 
@@ -60,8 +64,8 @@ A seguir estão listados os projetos de cada área de atuação, oferecendo uma 
 [![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/dataAnalysisBI)
 [![Ver Site](https://img.shields.io/badge/Ver%20Site-darkgreen?style=for-the-badge)](https://vitoriapguimaraes-datascience-dataanalysisbi.streamlit.app/)
 
-| Módulo de Análise | Descrição e Funcionalidades |
-| :---------------- | :-------------------------- |
+| Módulo                        | Descrição e Funcionalidades                                                                        |
+| :---------------------------- | :------------------------------------------------------------------------------------------------- |
 | Segmentação de Clientes (RFM) | Clustering de consumidores baseado em Recência, Frequência e Valor (8 segmentos).                  |
 | Dados de Varejo               | Exploração de vendas, sazonalidade e comportamento de compra das operações de varejo.              |
 | Cancelamento de Cartão        | Diagnóstico de churn, métricas de engajamento e correlações com gráficos interativos.              |
@@ -78,7 +82,7 @@ A seguir estão listados os projetos de cada área de atuação, oferecendo uma 
 [![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/machineLearning)
 [![Ver Site](https://img.shields.io/badge/Ver%20Site-darkgreen?style=for-the-badge)](https://vitoriapguimaraes-machinelearning-painel-ocktti.streamlit.app/)
 
-| Projeto / Módulo    | Descrição e Aplicação                                                                          | Stack e Modelos        |
+| Módulo              | Descrição e Aplicação                                                                          | Stack e Modelos        |
 | :------------------ | :--------------------------------------------------------------------------------------------- | :--------------------- |
 | Predição de Salário | Estimativa salarial baseada em anos de experiência e nível educacional (Polinomial).           | Scikit-Learn, Ply      |
 | Previsão de Aluguel | Modelo para estimar valores de imóveis com base em suas características físicas e localização. | Regressão Linear       |
@@ -101,14 +105,14 @@ A seguir estão listados os projetos de cada área de atuação, oferecendo uma 
 
 ### Outras categorias em manutenção
 
-| Projeto                                                                                                   | Descrição                                                                                    | Tecnologias Utilizadas                                   | Status |
-|-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|----------------------------------------------------------|--------|
-| [Classificação de Imagens com TensorFlow](#classificacao-de-imagens-com-tensorflow)                       | Classificação de imagens com CNNs usando o dataset CIFAR-10.                                 | Python, TensorFlow, Keras, Numpy, Matplotlib, PIL        | ✅ |
-| [Hand Tracking com OpenCV e MediaPipe](#hand-tracking-com-opencv-e-mediapipe)                             | Detecção e rastreamento de mãos em tempo real e as algumas features.                         | Python, OpenCV, MediaPipe, pynput, NumPy                 | ✅ |
-| [Deteccao e contagem de veiculos com OpenCV](#deteccao-e-contagem-de-veiculos-com-opencv)                 | Projeto de visão computacional para detecção de movimento com Open CV.                       | Python, OpenCV, Numpy                                    | ✅ |
-| [Deteccao de sonolencia com OpenCV e MediaPipe](#Deteccao-de-sonolencia-com-opencv-e-mediapipe)           | Projeto de visão computacional para detecção de sonolência em motoristas.                    | Python, OpenCV, MediaPipe, Numpy                         | ✅ |
-| [Estudos de pipeline](#estudos-de-pipeline)                                                               |     |     | 🛠️ |
-| [Dashboards PowerBI](#dashboards-powerbi)                                                                 | Conjunto de dashboards desenvolvidos no Power BI, com foco em estudos e aplicações práticas. | PowerBI, DAX, Power Query, SQL, Machine Learning         | 🛠️ |
+| Projeto                                                                                         | Descrição                                                                                    | Tecnologias Utilizadas                            | Status |
+| ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------- | ------ |
+| [Classificação de Imagens com TensorFlow](#classificacao-de-imagens-com-tensorflow)             | Classificação de imagens com CNNs usando o dataset CIFAR-10.                                 | Python, TensorFlow, Keras, Numpy, Matplotlib, PIL | ✅     |
+| [Hand Tracking com OpenCV e MediaPipe](#hand-tracking-com-opencv-e-mediapipe)                   | Detecção e rastreamento de mãos em tempo real e as algumas features.                         | Python, OpenCV, MediaPipe, pynput, NumPy          | ✅     |
+| [Deteccao e contagem de veiculos com OpenCV](#deteccao-e-contagem-de-veiculos-com-opencv)       | Projeto de visão computacional para detecção de movimento com Open CV.                       | Python, OpenCV, Numpy                             | ✅     |
+| [Deteccao de sonolencia com OpenCV e MediaPipe](#Deteccao-de-sonolencia-com-opencv-e-mediapipe) | Projeto de visão computacional para detecção de sonolência em motoristas.                    | Python, OpenCV, MediaPipe, Numpy                  | ✅     |
+| [Estudos de pipeline](#estudos-de-pipeline)                                                     |                                                                                              |                                                   | 🛠️     |
+| [Dashboards PowerBI](#dashboards-powerbi)                                                       | Conjunto de dashboards desenvolvidos no Power BI, com foco em estudos e aplicações práticas. | PowerBI, DAX, Power Query, SQL, Machine Learning  | 🛠️     |
 
 Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluindo demonstrações visuais e links para os repositórios e sites.
 
@@ -183,7 +187,7 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 > [![Dashboard RH](https://img.shields.io/badge/Dashboard%20RH-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dashboards/tree/main/Dashboard%20RH)
 > [![Dashboard Segmentação](https://img.shields.io/badge/Dashboard%20Segmentação%20Clientes-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dashboards/tree/main/Dashboard%20Segmenta%C3%A7%C3%A3o%20Clientes)
 > [![Dashboard Logística](https://img.shields.io/badge/Dashboard%20Logística-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dashboards/tree/main/Dashboard%20Logistica)
-> [![Dashboard Financeiro](https://img.shields.io/badge/Dashboard%20Financeiro-black?style=flat-square)]([link](https://github.com/vitoriapguimaraes/PowerBI-dashboards/tree/main/Dashboard%20Financeiro))
+> [![Dashboard Financeiro](https://img.shields.io/badge/Dashboard%20Financeiro-black?style=flat-square)](<[link](https://github.com/vitoriapguimaraes/PowerBI-dashboards/tree/main/Dashboard%20Financeiro)>)
 > [![Dashboard Séries Temporais](https://img.shields.io/badge/Dashboard%20Séries%20Temporais-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dashboards/tree/main/Dashboard%20Series%20Temporais)
 > [![Dashboard Anomalias](https://img.shields.io/badge/Dashboard%20Anomalias-black?style=flat-square)](https://github.com/vitoriapguimaraes/PowerBI-dashboards/tree/main/Dashboard%20Anomalias)
 
