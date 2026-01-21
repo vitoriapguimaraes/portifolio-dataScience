@@ -35,9 +35,9 @@ Aqui, cada pasta representa um passo na minha jornada de especialização. Organ
 ## Mapa do Portfólio
 
 - ✅ [Análise de Dados e Business Intelligence](#analise-de-dados-e-business-intelligence)
+- ✅ [Machine Learning](Machine-Learning)
 - ✅ [Estudos em R](Estudos-em-R)
 - 🛠️ [Engenharia de Dados](Engenharia-de-Dados)
-- 🛠️ [Machine Learning](Machine-Learning)
 - 🛠️ [Visão Computacional](Visao-Computacional)
 
 > 🧭 Legenda dos Status:
@@ -67,6 +67,28 @@ A seguir estão listados os projetos de cada área de atuação, oferecendo uma 
 | Cancelamento de Cartão        | Diagnóstico de churn, métricas de engajamento e correlações com gráficos interativos.              |
 | Cancelamento de Assinaturas   | Análise de churn em serviços de assinatura (Telco), com simulador de cenários e foco em contratos. |
 
+### Machine Learning
+
+<img src="https://github.com/vitoriapguimaraes/machineLearning/blob/main/demo/navigation.gif" width="600" alt="Demonstração do Sistema">
+
+> Uma coleção de algoritmos de aprendizado supervisionado e por reforço aplicados a problemas reais de finanças, RH, engenharia e mercado imobiliário.
+>
+> ✅ Concluído
+
+[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/machineLearning)
+[![Ver Site](https://img.shields.io/badge/Ver%20Site-darkgreen?style=for-the-badge)](https://vitoriapguimaraes-machinelearning-painel-ocktti.streamlit.app/)
+
+| Projeto / Módulo    | Descrição e Aplicação                                                                          | Stack e Modelos        |
+| :------------------ | :--------------------------------------------------------------------------------------------- | :--------------------- |
+| Predição de Salário | Estimativa salarial baseada em anos de experiência e nível educacional (Polinomial).           | Scikit-Learn, Ply      |
+| Previsão de Aluguel | Modelo para estimar valores de imóveis com base em suas características físicas e localização. | Regressão Linear       |
+| Previsão de Vendas  | Forecasting de séries temporais para planejamento de demanda e estoque.                        | Statsmodels (ETS/Holt) |
+| Score de Crédito    | Classificação de risco de crédito para aprovação de empréstimos bancários.                     | Random Forest, KNN     |
+| Trading Bot (RL)    | Agente autônomo treinado com Q-Learning para operar no mercado financeiro (Simulação).         | Reinforcement Learning |
+| Rotatividade (RH)   | Análise de fatores que levam ao _turnover_ e predição de saída de funcionários.                | XGBoost                |
+| Risco Bancário      | Avaliação detalhada de perfis de clientes para mitigação de riscos financeiros.                | Regressão Logística    |
+| Padrões em Voos     | Análise de tráfego aéreo e Simulador de Atrasos com Machine Learning.                          | Random Forest, Plotly  |
+
 ### Estudos em R
 
 <img src="https://github.com/vitoriapguimaraes/portifolio-R-DataScience/raw/main/results/3-exemplo_analise_dataset_display.png" alt="Exemplo de Gráfico" width="600"/>
@@ -85,11 +107,6 @@ A seguir estão listados os projetos de cada área de atuação, oferecendo uma 
 | [Hand Tracking com OpenCV e MediaPipe](#hand-tracking-com-opencv-e-mediapipe)                             | Detecção e rastreamento de mãos em tempo real e as algumas features.                         | Python, OpenCV, MediaPipe, pynput, NumPy                 | ✅ |
 | [Deteccao e contagem de veiculos com OpenCV](#deteccao-e-contagem-de-veiculos-com-opencv)                 | Projeto de visão computacional para detecção de movimento com Open CV.                       | Python, OpenCV, Numpy                                    | ✅ |
 | [Deteccao de sonolencia com OpenCV e MediaPipe](#Deteccao-de-sonolencia-com-opencv-e-mediapipe)           | Projeto de visão computacional para detecção de sonolência em motoristas.                    | Python, OpenCV, MediaPipe, Numpy                         | ✅ |
-| [Robô Trading com Q-Learning](#robo-trading-com-q-learning)                                               | Robô que decide comprar ou vender ações para maximizar lucros com IA.                        | Python, Pandas, Numpy, Plotly, Q-Learning                | 🛠️ |
-| [Predição de Aluguel com Regressão Linear](#predicao-de-aluguel-com-regressao-linear)                     | Modelo de regressão linear para estimar valores de aluguel.                                  | Python, Jupyter Notebook, Statsmodels                    | 🛠️ |
-| [Predição Salarial com Machine Learning](#predicao-salarial-com-machine-learning)                         | Modelo que estima salário com base nas horas de estudo.                                      | Python, Scikit-Learn, NumPy, Pandas, Matplotlib, Seaborn | 🛠️ |
-| [Previsão de Vendas com Séries Temporais](#previsao-de-vendas-com-series-temporais)                       | Previsão de vendas usando suavização exponencial.                                            | Python, Statsmodels, Pandas, Matplotlib, Seaborn         | 🛠️ |
-| [Score de Crédito com ML](#sistema-de-previsao-de-score-para-clientes-bancarios)                          | Previsão de score de crédito com Random Forest e KNN.                                        | Python, Scikit-Learn, Pandas, Jupyter Notebook           | 🛠️ |
 | [Estudos de pipeline](#estudos-de-pipeline)                                                               |     |     | 🛠️ |
 | [Dashboards PowerBI](#dashboards-powerbi)                                                                 | Conjunto de dashboards desenvolvidos no Power BI, com foco em estudos e aplicações práticas. | PowerBI, DAX, Power Query, SQL, Machine Learning         | 🛠️ |
 
@@ -144,56 +161,6 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 > ✅ Concluído
 
 [![Acesse o Repositório](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-AnaliseFacialOpenCV)
-
-### Robo Trading com Q-Learning
-
-> Robô inteligente que realiza operações de compra e venda de ações com base em algoritmos de aprendizado por reforço.
->
-> **Tecnologias:** Python, Pandas, Numpy, Plotly, Q-Learning
->
-> 🛠️ Em manutenção
-
-[![Acesse o Repositório](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-RoboTradingQLearning)
-
-### Predicao de Aluguel com Regressao Linear
-
-> Desenvolvimento de um sistema para monitoramento e análise do lucro obtido em negociações financeiras, com cálculos de lucro final formatado e detalhado em relatório automatizado.
->
-> **Tecnologias:** Python, Pandas, Matplotlib
->
-> 🛠️ Em manutenção
-
-[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-Predicao_Regressao_Linear)
-
-### Predicao Salarial com Machine Learning
-
-> Projeto de Machine Learning utilizando Python e Scikit-Learn para prever salário com base nas horas de estudo mensais. O modelo, treinado com dados históricos, é avaliado pelo coeficiente **R&sup2;**.
->
-> **Tecnologias:** Python, Scikit-Learn, NumPy, Pandas, Matplotlib, Seaborn
->
-> 🛠️ Em manutenção
-
-[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-Predicao_Machine_Learning)
-
-### Previsao de Vendas com Series Temporais
-
-> Este projeto aborda a análise e a previsão de vendas usando séries temporais. A partir dos dados históricos de vendas de 2023, ele visa prever o total de vendas para janeiro de 2024, utilizando técnicas de suavização exponencial com a biblioteca Statsmodels.
->
-> **Tecnologias:** Python, Numpy, Pandas, Matplotlib, Seaborn, Statsmodels
->
-> 🛠️ Em manutenção
-
-[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-Predicao_Suavizacao_Exponencial)
-
-### Sistema de Previsao de Score para Clientes Bancarios
-
-> Análise de dados para previsão do score de crédito de clientes de um banco, com modelo de machine learning e insights sobre as características mais relevantes para definir o score.
->
-> **Tecnologias:** Python, Pandas, Scikit-learn, JupyterNotebook
->
-> 🛠️ Em manutenção
-
-[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-Previsao_Credito)
 
 ### Estudos de pipeline
 
