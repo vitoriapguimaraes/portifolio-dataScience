@@ -39,9 +39,11 @@ Aqui, cada pasta representa um passo na minha jornada de especialização. Organ
 
 - ✅ [Análise de Dados e Business Intelligence](#analise-de-dados-e-business-intelligence)
 - ✅ [Machine Learning](#machine-learning)
+- ✅ [Engenharia de Dados](#engenharia-de-dados-e-utilitários)
 - ✅ [Estudos em R](#estudos-em-r)
-- 🛠️ [Engenharia de Dados](Engenharia-de-Dados)
-- 🛠️ [Visão Computacional](Visao-Computacional)
+- 🛠️ Visão Computacional
+- 🛠️ Dashboards em PowerBI
+
 
 > 🧭 Legenda dos Status:
 >
@@ -92,6 +94,22 @@ A seguir estão listados os projetos de cada área de atuação, oferecendo uma 
 | Rotatividade (RH)   | Análise de fatores que levam ao _turnover_ e predição de saída de funcionários.                | XGBoost                |
 | Risco Bancário      | Avaliação detalhada de perfis de clientes para mitigação de riscos financeiros.                | Regressão Logística    |
 | Padrões em Voos     | Análise de tráfego aéreo e Simulador de Atrasos com Machine Learning.                          | Random Forest, Plotly  |
+
+### Engenharia de Dados e Utilitários
+
+<img src="https://github.com/vitoriapguimaraes/dataEngineeringUtils/blob/main/demo/navigation.gif" width="600" alt="Demonstração do Sistema">
+
+> Um portfólio prático de Engenharia de Dados, focado na construção de pipelines robustos, modelagem dimensional e arquitetura em nuvem.
+>
+> ✅ Concluído
+
+[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/dataEngineeringUtils)
+[![Ver Site](https://img.shields.io/badge/Ver%20Site-darkgreen?style=for-the-badge)](https://dataengineeringutils.streamlit.app/)
+
+| Módulo                            | Descrição e Funcionalidades                                                                           |
+| :-------------------------------- | :---------------------------------------------------------------------------------------------------- |
+| Estudos de Fluxo (Data Wrangling) | Pipeline de limpeza automatizado com Python/Pandas e carga em SQLite.                                 |
+| Projeto Super Store (Flagship)    | Arquitetura End-to-End no GCP. Ingestão de vendas (ERP) + Scraping de competidores (Web) -> BigQuery. |
 
 ### Estudos em R
 
@@ -165,10 +183,6 @@ Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluin
 > ✅ Concluído
 
 [![Acesse o Repositório](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-AnaliseFacialOpenCV)
-
-### Estudos de pipeline
-
-[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-Estudos_Pipelines)
 
 ## Dashboards PowerBI
 
