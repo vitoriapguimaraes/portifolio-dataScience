@@ -39,11 +39,11 @@ Aqui, cada pasta representa um passo na minha jornada de especialização. Organ
 
 - ✅ [Análise de Dados e Business Intelligence](#analise-de-dados-e-business-intelligence)
 - ✅ [Machine Learning](#machine-learning)
+- ✅ [Visão Computacional](#visao-computacional)
 - ✅ [Engenharia de Dados](#engenharia-de-dados-e-utilitários)
 - ✅ [Estudos em R](#estudos-em-r)
 - 🛠️ Visão Computacional
 - 🛠️ Dashboards em PowerBI
-
 
 > 🧭 Legenda dos Status:
 >
@@ -95,6 +95,23 @@ A seguir estão listados os projetos de cada área de atuação, oferecendo uma 
 | Risco Bancário      | Avaliação detalhada de perfis de clientes para mitigação de riscos financeiros.                | Regressão Logística    |
 | Padrões em Voos     | Análise de tráfego aéreo e Simulador de Atrasos com Machine Learning.                          | Random Forest, Plotly  |
 
+### Visao Computacional
+
+<img src="https://github.com/vitoriapguimaraes/computerVision/blob/main/streamlit_app/assets/demos/streamlit_app_painel_screen.png" width="600" alt="Demonstração do Sistema">
+
+> Um Hub centralizado de Visão Computacional com interface estilo "CCTV Command Center", reunindo quatro projetos de processamento de imagem, detecção de objetos e interação em tempo real.
+>
+> ✅ Concluído
+
+[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/computerVision)
+
+| Módulo                   | Descrição e Funcionalidades                                                                             | Stack e Modelos           |
+| :----------------------- | :------------------------------------------------------------------------------------------------------ | :------------------------ |
+| Classificação de Imagens | CNN treinada no CIFAR-10 para classificação de 10 categorias de objetos com predição ao vivo.           | TensorFlow, Keras, Plotly |
+| Análise de Tráfego       | Contagem automática de veículos com subtração de fundo e comparação de 5 algoritmos (MOG2, KNN, etc.).  | OpenCV (bgsegm)           |
+| Interação Humano-Máquina | Teclado virtual, controle de apps e quadro de desenho por gestos, com rastreamento de 21 landmarks/mão. | MediaPipe Hands           |
+| Segurança Viária         | Detecção de sonolência monitorando EAR e MAR com alertas visuais em tempo real.                         | MediaPipe FaceMesh, NumPy |
+
 ### Engenharia de Dados e Utilitários
 
 <img src="https://github.com/vitoriapguimaraes/dataEngineeringUtils/blob/main/demo/navigation.gif" width="600" alt="Demonstração do Sistema">
@@ -123,68 +140,13 @@ A seguir estão listados os projetos de cada área de atuação, oferecendo uma 
 
 ### Outras categorias em manutenção
 
-| Projeto                                                                                         | Descrição                                                                                    | Tecnologias Utilizadas                            | Status |
-| ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------- | ------ |
-| [Classificação de Imagens com TensorFlow](#classificacao-de-imagens-com-tensorflow)             | Classificação de imagens com CNNs usando o dataset CIFAR-10.                                 | Python, TensorFlow, Keras, Numpy, Matplotlib, PIL | ✅     |
-| [Hand Tracking com OpenCV e MediaPipe](#hand-tracking-com-opencv-e-mediapipe)                   | Detecção e rastreamento de mãos em tempo real e as algumas features.                         | Python, OpenCV, MediaPipe, pynput, NumPy          | ✅     |
-| [Deteccao e contagem de veiculos com OpenCV](#deteccao-e-contagem-de-veiculos-com-opencv)       | Projeto de visão computacional para detecção de movimento com Open CV.                       | Python, OpenCV, Numpy                             | ✅     |
-| [Deteccao de sonolencia com OpenCV e MediaPipe](#Deteccao-de-sonolencia-com-opencv-e-mediapipe) | Projeto de visão computacional para detecção de sonolência em motoristas.                    | Python, OpenCV, MediaPipe, Numpy                  | ✅     |
-| [Estudos de pipeline](#estudos-de-pipeline)                                                     |                                                                                              |                                                   | 🛠️     |
-| [Dashboards PowerBI](#dashboards-powerbi)                                                       | Conjunto de dashboards desenvolvidos no Power BI, com foco em estudos e aplicações práticas. | PowerBI, DAX, Power Query, SQL, Machine Learning  | 🛠️     |
+| Projeto                                   | Descrição                                                                                    | Tecnologias Utilizadas                           | Status |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------ | ------ |
+| [Dashboards PowerBI](#dashboards-powerbi) | Conjunto de dashboards desenvolvidos no Power BI, com foco em estudos e aplicações práticas. | PowerBI, DAX, Power Query, SQL, Machine Learning | 🛠️     |
 
 Abaixo você encontrará uma descrição mais detalhada de cada projeto, incluindo demonstrações visuais e links para os repositórios e sites.
 
-## Projetos em Python
-
-### Classificacao de Imagens com TensorFlow
-
-<img src="https://github.com/vitoriapguimaraes/Python-ClassificacaoImagensTensorFlow/blob/main/results/software.gif" alt="Tela do sistema" width="800"/>
-
-> Modelo de IA para classificar imagens do dataset CIFAR-10 com uso de Redes Neurais Convolucionais.
->
-> **Tecnologias:** Python, TensorFlow, Keras, Numpy, Matplotlib, PIL
->
-> ✅ Concluído
-
-[![Acesse o Repositório](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-ClassificacaoImagensTensorFlow)
-
-### Hand Tracking com OpenCV e MediaPipe
-
-<img src="https://github.com/vitoriapguimaraes/Python-HandTrackingOpenCV/blob/main/results/display.gif" alt="Demonstração do sistema" width="800"/>
-
-> Projeto Python para detecção e rastreamento de mãos em tempo real, reconhecimento de gestos, teclado virtual e quadro de desenho usando OpenCV e MediaPipe. Permite interação intuitiva com o computador por gestos, incluindo controle de aplicativos e desenho virtual.
->
-> **Tecnologias:** Python, OpenCV, MediaPipe, pynput, NumPy
->
-> ✅ Concluído
-
-[![Acesse o Repositório](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-HandTrackingOpenCV)
-
-### Deteccao e contagem de veiculos com OpenCV
-
-<img src="https://github.com/vitoriapguimaraes/Python-DeteccaoMovimentoOpenCV/blob/main/results/display.gif" alt="Demonstração do sistema" width="800"/>
-
-> Projeto de visão computacional para detecção e contagem automática de veículos em vídeos de tráfego, utilizando técnicas de subtração de fundo e processamento de imagens com OpenCV.
->
-> **Tecnologias:** Python, OpenCV, Numpy
->
-> ✅ Concluído
-
-[![Acesse o Repositório](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-DeteccaoMovimentoOpenCV)
-
-### Deteccao de sonolencia com OpenCV e MediaPipe
-
-<img src="https://github.com/vitoriapguimaraes/Python-AnaliseFacialOpenCV/blob/main/results/display.gif" alt="Demonstração do sistema" width="800"/>
-
-> Sistema de detecção de sonolência em motoristas usando visão computacional, OpenCV e MediaPipe. O projeto visa aumentar a segurança no trânsito ao identificar sinais de fadiga facial em tempo real, alertando o condutor para possíveis riscos.
->
-> **Tecnologias:** Python, OpenCV, MediaPipe, Numpy
->
-> ✅ Concluído
-
-[![Acesse o Repositório](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/Python-AnaliseFacialOpenCV)
-
-## Dashboards PowerBI
+#### Dashboards PowerBI
 
 > Este repositório contém dashboards desenvolvidos no Power BI, com foco em estudos e aplicações práticas. Além disso, inclui conteúdos sobre análise de dados, machine learning, SQL e R, demonstrando como essas ferramentas podem ser usadas de forma integrada para extrair insights e resolver problemas de negócios.
 >
