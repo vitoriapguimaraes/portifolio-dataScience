@@ -24,6 +24,8 @@ Aqui, cada pasta representa um passo na minha jornada de especialização. Organ
 > > [![PIL](https://img.shields.io/badge/PIL-000000?style=for-the-badge&logo=python&logoColor=white)](https://pillow.readthedocs.io/en/stable/)
 > > [![OpenCV](https://img.shields.io/badge/OpenCV-000000?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
 > > [![MediaPipe](https://img.shields.io/badge/MediaPipe-000000?style=for-the-badge&logo=mediapipe&logoColor=white)](https://mediapipe.dev/)
+> > [![LangChain](https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logo=chainlink&logoColor=white)](https://www.langchain.com/)
+> > [![VectorDB](https://img.shields.io/badge/ChromaDB-000000?style=for-the-badge&logo=databricks&logoColor=white)](https://www.trychroma.com/)
 >
 > 📈 **Business Intelligence**
 >
@@ -39,10 +41,10 @@ Aqui, cada pasta representa um passo na minha jornada de especialização. Organ
 
 - ✅ [Análise de Dados e Business Intelligence](#analise-de-dados-e-business-intelligence)
 - ✅ [Machine Learning](#machine-learning)
+- ✅ [Agentes de IA & LLMs](#agentes-de-ia-e-llms)
 - ✅ [Visão Computacional](#visao-computacional)
 - ✅ [Engenharia de Dados](#engenharia-de-dados-e-utilitários)
 - ✅ [Estudos em R](#estudos-em-r)
-- 🛠️ Visão Computacional
 - 🛠️ Dashboards em PowerBI
 
 > 🧭 Legenda dos Status:
@@ -94,6 +96,25 @@ A seguir estão listados os projetos de cada área de atuação, oferecendo uma 
 | Rotatividade (RH)   | Análise de fatores que levam ao _turnover_ e predição de saída de funcionários.                | XGBoost                |
 | Risco Bancário      | Avaliação detalhada de perfis de clientes para mitigação de riscos financeiros.                | Regressão Logística    |
 | Padrões em Voos     | Análise de tráfego aéreo e Simulador de Atrasos com Machine Learning.                          | Random Forest, Plotly  |
+
+### Agentes de IA e LLMs
+
+<img src="https://github.com/vitoriapguimaraes/ai_agents_hub/blob/main/demo/navigation.gif" width="600" alt="Demonstração do Sistema">
+
+> Ecossistema de Inteligência Artificial Generativa e RAG. Uma coleção de agentes autônomos, pipelines multi-agente e sistemas de recuperação avançada (RAG) construídos com Llama 3, LangChain e LangGraph.
+>
+> ✅ Concluído
+
+[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/dataScience/tree/main/AI_Agents_LLMs)
+
+| Módulo               | Descrição e Funcionalidades                                                                   | Stack e Arquitetura        |
+| :------------------- | :-------------------------------------------------------------------------------------------- | :------------------------- |
+| Agente Animalia PRO  | Agente ReAct completo para atendimento de PetShop com consulta RAG e Tool-Calling.            | LangGraph, Tool-Calling    |
+| Orquestrador E-mails | Sistema multi-agente para triagem e rascunho de respostas automáticas baseadas em prioridade. | LangChain, Multi-Agent     |
+| RAG Avançado         | Laboratório de técnicas de elite: Hybrid Search, Reranking e Contextual Retrieval.            | ChromaDB, Cross-Encoders   |
+| Gerador de Conteúdo  | Pipeline automatizado para criação de posts virais com agentes Redator e Revisor.             | Multi-Agent Pipeline       |
+| Arquitetura RAG      | Pesquisa semântica em base de documentos (Regras Futebol) com persistência vetorial.          | ChromaDB, HuggingFace      |
+| Chatbot Expert API   | Interface conversacional com memória de contexto e persona especializada.                     | Contextual Memory, Llama 3 |
 
 ### Visao Computacional
 
