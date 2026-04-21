@@ -99,13 +99,13 @@ A seguir estão listados os projetos de cada área de atuação, oferecendo uma 
 
 ### Agentes de IA e LLMs
 
-<img src="https://github.com/vitoriapguimaraes/ai_agents_hub/blob/main/demo/navigation.gif" width="600" alt="Demonstração do Sistema">
+<img src="https://github.com/vitoriapguimaraes/ai_agents_llms/blob/main/demos/navigation.gif" width="600" alt="Demonstração do Sistema">
 
 > Ecossistema de Inteligência Artificial Generativa e RAG. Uma coleção de agentes autônomos, pipelines multi-agente e sistemas de recuperação avançada (RAG) construídos com Llama 3, LangChain e LangGraph.
 >
 > ✅ Concluído
 
-[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/dataScience/tree/main/AI_Agents_LLMs)
+[![Ver no GitHub](https://img.shields.io/badge/Ver%20no%20GitHub-gray?style=for-the-badge)](https://github.com/vitoriapguimaraes/AI_Agents_LLMs)
 
 | Módulo               | Descrição e Funcionalidades                                                                   | Stack e Arquitetura        |
 | :------------------- | :-------------------------------------------------------------------------------------------- | :------------------------- |
